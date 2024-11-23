@@ -1,15 +1,15 @@
 join Lady left [animation="Slide In Left" length="0.8"]
 join Noir right [animation="Slide In Right" length="0.8"]
-Noir: Hello, Lady Whitepaw.
+Noir: Good afternoon, Lady Whitepaw.
+Noir: Your magnificent garden is truly impressive.
+Lady: Thank you very much, Mr. Noir.
 Noir: May I ask you a few questions?
 Lady: Ask away.
 - Ask about her husband
 	Lady: *Text über den Ehemann*
-- Dont ask anything.
-	return
 - Ask about the other people
-	- Ask about the maid
-		Lady: Well , we hired her a long time ago. She does the job well, but she is kind of too curios.
+	- Ask about the Maid
+		Lady: Well, we hired her a long time ago. She does her job well, but sometimes she's a bit too nosy.
 		Lady: *Weiterer Text von der Lady*
 	- Ask about the Cook
 		Lady: *Text über den Koch*
@@ -17,4 +17,7 @@ Lady: Ask away.
 		Lady: *Text über die Lady*
 	- Ask about the Detective
 		Lady: *Text über dich*
+- Dont ask anything.
+	Noir: I have some other matters to attend to, but I'll be right back with you.
+	return
 Noir: Thank you.
