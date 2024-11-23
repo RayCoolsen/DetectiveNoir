@@ -10,14 +10,14 @@
 "style": "",
 "suffix": ""
 },
-"default_portrait": "New portrait",
+"default_portrait": "Default",
 "description": "Die Magd",
 "display_name": "Magd",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
-"New portrait": {
+"Default": {
 "export_overrides": {
 "image": "\"res://sprites/Magd.png\""
 },

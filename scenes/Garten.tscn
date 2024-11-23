@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://con5pt8771i6o"]
+
+[ext_resource type="Script" path="res://scripts/Garten.gd" id="1_s6qc3"]
+[ext_resource type="Texture2D" uid="uid://cq4gxmnt455hi" path="res://sprites/Garten.jpeg" id="2_0wm1h"]
+[ext_resource type="Texture2D" uid="uid://co3ia0pryunvn" path="res://sprites/Wife.png" id="3_dfeb4"]
+[ext_resource type="Texture2D" uid="uid://o7wssmg5rtyf" path="res://sprites/Noir.png" id="4_eesm5"]
+
+[node name="Garten" type="Node2D"]
+script = ExtResource("1_s6qc3")
+
+[node name="Garten" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(585, 328)
+texture = ExtResource("2_0wm1h")
+
+[node name="Wife" type="Sprite2D" parent="."]
+position = Vector2(318, 410)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_dfeb4")
+
+[node name="Noir" type="Sprite2D" parent="."]
+position = Vector2(879, 389)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("4_eesm5")

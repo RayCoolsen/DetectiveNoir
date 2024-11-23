@@ -13,7 +13,6 @@ config_version=5
 config/name="Schnurrlock Holmes"
 run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [autoload]
 
@@ -22,17 +21,17 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"Koch": "res://Dialog/Koch.dch",
-"Lady": "res://Dialog/Lady.dch",
-"Magd": "res://Dialog/Magd.dch",
-"Polizei": "res://Dialog/Polizei.dch",
-"Sohn": "res://Dialog/Sohn.dch",
-"sherlock": "res://Dialog/sherlock.dch",
+"Koch": "res://Dialog/Characters/Koch.dch",
+"Lady": "res://Dialog/Characters/Lady.dch",
+"Magd": "res://Dialog/Characters/Magd.dch",
+"Noir": "res://Dialog/Characters/Noir.dch",
+"Polizei": "res://Dialog/Characters/Polizei.dch",
+"Sohn": "res://Dialog/Characters/Sohn.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
-"GartenTalk": "res://GartenTalk.dtl",
-"Intro": "res://Dialog/Intro.dtl"
+"GartenTalk": "res://Dialog/Timelines/GartenTalk.dtl",
+"Intro": "res://Dialog/Timelines/Intro.dtl"
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

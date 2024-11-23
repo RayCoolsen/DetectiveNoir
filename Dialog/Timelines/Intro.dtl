@@ -1,0 +1,33 @@
+join Noir center [animation="Slide In Left" length="0.8" mirrored="true"]
+Noir: Interesting...
+Noir: Interesting...
+Noir: Very interesting...
+*knock knock*
+Lady: May I enter?
+update Noir left [move_time="0.4"]
+join Lady right [animation="Slide In Right" length="0.7" mirrored="true"]
+Lady: Are you the famous Detective Noir?
+Noir: Yes,  you may. Yes I am.
+Noir: Have a seat, you're shivering from the cold.
+Lady: It is not the cold, Mr. Noir, but shock.
+Noir: There is no need to be afraid, you are safe here.
+Noir: You are just tired.
+Noir: You woke up very early, took the carriage and then got on the train.
+Lady: But, Mr. Noir, how do you know?
+Noir: Simple, your return ticket is sticking out from under your cuff.
+Noir: The left sleeve of your dress is splatterd with dirt.
+Noir: The spots are fresh.
+Noir: You must have sat to the left of the driver in a two weeled carriage.
+Lady: Thats exactly the way it was.
+Lady: You truly are a magician.
+Noir: How can I be of service to you, Lady Whitepaw?
+Lady: My husband ...
+Lady: ...
+Noir: Yes, I read about it in the newspaper.
+Noir: My deepest condolences.
+Noir: I'll go with you to Whitepaw Manor in a moment to investigate the case.
+Noir: I just have to gather my instuments quickly.
+leave Noir [animation="Zoom Out"]
+leave Lady [animation="Zoom Out"]
+[signal arg="ende"]
+Tutorial\: Inventar, Item / Person intearaktion

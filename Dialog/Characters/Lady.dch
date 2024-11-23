@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 "_translation_id": "",
-"color": Color(0, 1, 0.835938, 1),
+"color": Color(0.854902, 0.690196, 0.678431, 1),
 "custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -10,16 +10,16 @@
 "style": "",
 "suffix": ""
 },
-"default_portrait": "New portrait",
+"default_portrait": "Default",
 "description": "",
-"display_name": "Koch",
+"display_name": "Lady",
 "mirror": false,
-"nicknames": [""],
+"nicknames": ["Lady Whitepaw", "Whitepaw"],
 "offset": Vector2(0, 0),
 "portraits": {
-"New portrait": {
+"Default": {
 "export_overrides": {
-"image": "\"res://sprites/Koch.png\""
+"image": "\"res://sprites/Wife.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
@@ -27,5 +27,5 @@
 "scene": ""
 }
 },
-"scale": 1.0
+"scale": 0.94
 }

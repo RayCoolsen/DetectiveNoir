@@ -1,8 +1,7 @@
 join Lady left [animation="Slide In Left" length="0.8"]
-<Empty Text Event>
-join sherlock right [animation="Slide In Right" length="0.8"]
-sherlock: Hello, Lady Whitepaw.
-sherlock: May I ask you a few questions?
+join Noir right [animation="Slide In Right" length="0.8"]
+Noir: Hello, Lady Whitepaw.
+Noir: May I ask you a few questions?
 Lady: Ask away.
 - Ask about her husband
 	Lady: *Text über den Ehemann*
@@ -18,4 +17,4 @@ Lady: Ask away.
 		Lady: *Text über die Lady*
 	- Ask about the Detective
 		Lady: *Text über dich*
-sherlock: Thank you.
+Noir: Thank you.
