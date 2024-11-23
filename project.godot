@@ -22,11 +22,16 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"Koch": "res://Dialog/Koch.dch",
 "Lady": "res://Dialog/Lady.dch",
+"Magd": "res://Dialog/Magd.dch",
+"Polizei": "res://Dialog/Polizei.dch",
+"Sohn": "res://Dialog/Sohn.dch",
 "sherlock": "res://Dialog/sherlock.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
+"GartenTalk": "res://GartenTalk.dtl",
 "Intro": "res://Dialog/Intro.dtl"
 }
 glossary/default_case_sensitive=true

@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 "_translation_id": "",
-"color": Color(0.855469, 0.137009, 0.137009, 1),
+"color": Color(0.984375, 0.794457, 0.146118, 1),
 "custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -10,16 +10,16 @@
 "style": "",
 "suffix": ""
 },
-"default_portrait": "default",
-"description": "",
-"display_name": "Noir",
+"default_portrait": "New portrait",
+"description": "Die Magd",
+"display_name": "Magd",
 "mirror": false,
-"nicknames": ["Detective Noir", "Noir", "Mr. Noir", "Detective"],
+"nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
-"default": {
+"New portrait": {
 "export_overrides": {
-"image": "\"res://sprites/Noir.png\""
+"image": "\"res://sprites/Magd.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
