@@ -51,6 +51,9 @@ save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autocolor_names=true
 text/autopauses={}
+layout/style_list=[]
+layout/default_style="Default"
+variables={}
 
 [editor_plugins]
 

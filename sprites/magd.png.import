@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://brfwuabu3guxe"
-path="res://.godot/imported/magd.png-aee15c171e8b92b8561c8757756ddfae.ctex"
+uid="uid://dqarujy0lxkt3"
+path="res://.godot/imported/Magd.png-5c13fdc8decb734cb834cdb1b1cd1ecc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/magd.png"
-dest_files=["res://.godot/imported/magd.png-aee15c171e8b92b8561c8757756ddfae.ctex"]
+source_file="res://sprites/Magd.png"
+dest_files=["res://.godot/imported/Magd.png-5c13fdc8decb734cb834cdb1b1cd1ecc.ctex"]
 
 [params]
 

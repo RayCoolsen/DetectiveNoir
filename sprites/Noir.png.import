@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://230b33xoe2oy"
-path="res://.godot/imported/Ehefrau.png-3da1521a30eb43e83c5c4d2f8c76c264.ctex"
+uid="uid://o7wssmg5rtyf"
+path="res://.godot/imported/Noir.png-288972c4c992d8e3d0ff20d6946bee1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Ehefrau.png"
-dest_files=["res://.godot/imported/Ehefrau.png-3da1521a30eb43e83c5c4d2f8c76c264.ctex"]
+source_file="res://sprites/Noir.png"
+dest_files=["res://.godot/imported/Noir.png-288972c4c992d8e3d0ff20d6946bee1a.ctex"]
 
 [params]
 

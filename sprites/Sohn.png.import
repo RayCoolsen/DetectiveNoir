@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ukgawf2ktlkg"
-path="res://.godot/imported/detektive.png-de60a27c68b1321da47fef6fbbc69c9a.ctex"
+uid="uid://dj6jxitdank6f"
+path="res://.godot/imported/Sohn.png-69abd580cee483054b1d68ced0dd07c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/detektive.png"
-dest_files=["res://.godot/imported/detektive.png-de60a27c68b1321da47fef6fbbc69c9a.ctex"]
+source_file="res://sprites/Sohn.png"
+dest_files=["res://.godot/imported/Sohn.png-69abd580cee483054b1d68ced0dd07c1.ctex"]
 
 [params]
 

@@ -12,14 +12,14 @@
 },
 "default_portrait": "default",
 "description": "",
-"display_name": "Sherlock",
+"display_name": "Noir",
 "mirror": false,
 "nicknames": ["Detective Noir", "Noir", "Mr. Noir", "Detective"],
 "offset": Vector2(0, 0),
 "portraits": {
 "default": {
 "export_overrides": {
-"image": "\"res://sprites/detektive.png\""
+"image": "\"res://sprites/Noir.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
