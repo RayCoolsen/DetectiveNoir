@@ -1,0 +1,32 @@
+join sherlock center [animation="Slide In Left" length="0.8" mirrored="true"]
+sherlock: Interesting...
+sherlock: Interesting...
+sherlock: Very interesting...
+*knock knock*
+Lady: May I enter?
+update sherlock left [move_time="0.4"]
+join Lady right [animation="Slide In Right" length="0.7" mirrored="true"]
+Lady: Are you the famous Detective Noir?
+sherlock: Yes,  you may. Yes I am.
+sherlock: Have a seat, you're shivering from the cold.
+Lady: It is not the cold, Mr. Noir, but shock.
+sherlock: There is no need to be afraid, you are safe here.
+sherlock: You are just tired.
+sherlock: You woke up very early, took the carriage and then got on the train.
+Lady: But, Mr. Noir, how do you know?
+sherlock: Simple, your return ticket is sticking out from under your cuff.
+sherlock: The left sleeve of your dress is splatterd with dirt.
+sherlock: The spots are fresh.
+sherlock: You must have sat to the left of the driver in a two weeled carriage.
+Lady: Thats exactly the way it was.
+Lady: You truly are a magician.
+sherlock: How can I be of service to you, Lady Whitepaw?
+Lady: My husband ...
+Lady: ...
+sherlock: Yes, I read about it in the newspaper.
+sherlock: My deepest condolences.
+leave sherlock
+leave Lady
+[signal arg="ende"]
+ggj
+dfdg
