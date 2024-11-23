@@ -1,0 +1,21 @@
+join Lady left [animation="Slide In Left" length="0.8"]
+<Empty Text Event>
+join sherlock right [animation="Slide In Right" length="0.8"]
+sherlock: Hello, Lady Whitepaw.
+sherlock: May I ask you a few questions?
+Lady: Ask away.
+- Ask about her husband
+	Lady: *Text über den Ehemann*
+- Dont ask anything.
+	return
+- Ask about the other people
+	- Ask about the maid
+		Lady: Well , we hired her a long time ago. She does the job well, but she is kind of too curios.
+		Lady: *Weiterer Text von der Lady*
+	- Ask about the Cook
+		Lady: *Text über den Koch*
+	- Ask about the Lady
+		Lady: *Text über die Lady*
+	- Ask about the Detective
+		Lady: *Text über dich*
+sherlock: Thank you.
