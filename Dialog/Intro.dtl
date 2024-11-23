@@ -25,8 +25,9 @@ Lady: My husband ...
 Lady: ...
 sherlock: Yes, I read about it in the newspaper.
 sherlock: My deepest condolences.
-leave sherlock
-leave Lady
+sherlock: I'll go with you to Whitepaw Manor in a moment to investigate the case.
+sherlock: I just have to gather my instuments quickly.
+leave sherlock [animation="Zoom Out"]
+leave Lady [animation="Zoom Out"]
 [signal arg="ende"]
-ggj
-dfdg
+Tutorial\: Inventar, Item / Person intearaktion
