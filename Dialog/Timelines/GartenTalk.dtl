@@ -21,3 +21,4 @@ Lady: Ask away.
 	Noir: I have some other matters to attend to, but I'll be right back with you.
 	return
 Noir: Thank you.
+[signal arg="ende"]

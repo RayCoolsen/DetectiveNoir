@@ -1,12 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://t2s6sc6d1y5e"]
+[gd_scene load_steps=6 format=3 uid="uid://t2s6sc6d1y5e"]
 
 [ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="1_5bd15"]
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_ew711"]
+[ext_resource type="PackedScene" uid="uid://con5pt8771i6o" path="res://scenes/Garten.tscn" id="2_5mkcj"]
 [ext_resource type="Texture2D" uid="uid://o7wssmg5rtyf" path="res://sprites/Noir.png" id="3_ecler"]
 [ext_resource type="Texture2D" uid="uid://co3ia0pryunvn" path="res://sprites/Wife.png" id="4_r3l87"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_ew711")
+
+[node name="Garten" parent="." instance=ExtResource("2_5mkcj")]
 
 [node name="Study" type="Sprite2D" parent="."]
 z_index = -1
