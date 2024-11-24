@@ -1,3 +1,4 @@
+jump CharacterManager/save
 jump CharacterManager/hide all
 join Lady left [animation="Slide In Left" length="0.8"]
 join Noir right [animation="Slide In Right" length="0.8"]
@@ -12,7 +13,7 @@ Lady: Ask away.
 - Er war Reich und sie Arm
 - Ask about the other people
 	- Ask about the Maid
-		Lady: Well, we hired her a  long time ago. She does her job well, but sometimes she's a bit too nosy.
+		Lady: Well, we hired her a long time ago. She does her job well, but sometimes she's a bit too nosy.
 		Lady: I dont really trust her ...
 	- Ask about the Cook
 		Lady: *Text über den Koch*
@@ -26,7 +27,7 @@ Lady: Ask away.
 		Lady: I just...
 		Lady: ...
 		Lady: I miss him.
-		Noir: I am so sorry for your loss Madamme Whitepaw
+		Noir: I am so sorry for your loss Madame Whitepaw
 	- Ask about the Detective
 		Lady: You are the most well-known detctive in all of Catington.
 		Lady: And, hopefully, the best one too.
@@ -36,8 +37,5 @@ Lady: Ask away.
 	- Ask about Clue 2
 - Dont ask anything.
 	Noir: I have some other matters to attend to, but I'll be right back with you.
-	return
 Noir: Thank you for your time.
-set {Visibility.Noir} = true
-set {Visibility.Lady} = true
-[signal]
+jump CharacterManager/load

@@ -1,6 +1,5 @@
+jump CharacterManager/save
 jump CharacterManager/hide all
 join Koch right
 Koch: Droggelbecher
-set {Visibility.Koch} = true
-set {Visibility.Noir} = true
-[signal]
+jump CharacterManager/load

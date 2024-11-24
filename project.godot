@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Detective Noir"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://scenes/Study.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 
 [autoload]
@@ -31,10 +31,10 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "CharacterManager": "res://Dialog/Timelines/CharacterManager.dtl",
-"GartenLady": "res://Dialog/Timelines/GartenLady.dtl",
-"Intro": "res://Dialog/Timelines/Intro.dtl",
-"KücheKoch": "res://Dialog/Timelines/KücheKoch.dtl",
-"NoirGarten": "res://NoirGarten.dtl"
+"IntroStudy": "res://Dialog/Timelines/IntroStudy.dtl",
+"KochKüche": "res://Dialog/Timelines/KochKüche.dtl",
+"LadyGarten": "res://Dialog/Timelines/LadyGarten.dtl",
+"NoirGarten": "res://Dialog/Timelines/NoirGarten.dtl"
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

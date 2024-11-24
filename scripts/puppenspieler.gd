@@ -10,14 +10,20 @@ extends Node2D
 signal dialog_request(argument: String)
 
 func _ready() -> void:
-	noir.character_dialog_request.connect(_on_character_dialog_request)
-	lady.character_dialog_request.connect(_on_character_dialog_request)
-	polizei.character_dialog_request.connect(_on_character_dialog_request)
-	koch.character_dialog_request.connect(_on_character_dialog_request)
-	magd.character_dialog_request.connect(_on_character_dialog_request)
-	sohn.character_dialog_request.connect(_on_character_dialog_request)
+	Dialogic.signal_event.connect(_update_visibility)
+	set_dialog_start_visibility()
+	for child in get_children():
+		child.character_dialog_request.connect(_on_character_dialog_request)
 
-func update_visibility():
+func set_dialog_start_visibility():
+	Dialogic.VAR.Visibility.Noir = noir.visible
+	Dialogic.VAR.Visibility.Lady = lady.visible
+	Dialogic.VAR.Visibility.Polizei = polizei.visible
+	Dialogic.VAR.Visibility.Koch = koch.visible
+	Dialogic.VAR.Visibility.Magd = magd.visible
+	Dialogic.VAR.Visibility.Sohn = sohn.visible
+
+func _update_visibility(_argument):
 	noir.visible = Dialogic.VAR.Visibility.Noir
 	lady.visible = Dialogic.VAR.Visibility.Lady
 	polizei.visible = Dialogic.VAR.Visibility.Polizei

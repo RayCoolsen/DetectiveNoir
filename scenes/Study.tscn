@@ -1,20 +1,20 @@
 [gd_scene load_steps=4 format=3 uid="uid://t2s6sc6d1y5e"]
 
-[ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="1_5bd15"]
-[ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_r82yt"]
-[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/puppenspieler.tscn" id="5_lmqwr"]
+[ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_4o7dq"]
+[ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="2_a6x8u"]
+[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/Puppenspieler.tscn" id="3_4ue6f"]
 
 [node name="Study" type="Node2D"]
-script = ExtResource("1_r82yt")
-default_timeline = "Intro"
+script = ExtResource("1_4o7dq")
+default_timeline = "IntroStudy"
 
 [node name="Study" type="Sprite2D" parent="."]
 z_index = -1
 position = Vector2(574, 337)
 scale = Vector2(0.73, 0.73)
-texture = ExtResource("1_5bd15")
+texture = ExtResource("2_a6x8u")
 
-[node name="Puppenspieler" parent="." instance=ExtResource("5_lmqwr")]
+[node name="Puppenspieler" parent="." instance=ExtResource("3_4ue6f")]
 
 [node name="Noir" parent="Puppenspieler" index="0"]
 offset_left = 337.0
@@ -22,7 +22,7 @@ offset_top = 156.0
 offset_right = 934.0
 offset_bottom = 1992.0
 flip_h = true
-character_timeline = "Intro"
+character_timeline = "IntroStudy"
 
 [node name="Lady" parent="Puppenspieler" index="1"]
 visible = false
@@ -31,7 +31,7 @@ offset_top = 199.0
 offset_right = 1428.0
 offset_bottom = 2222.0
 flip_h = true
-character_timeline = "Intro"
+character_timeline = "IntroStudy"
 
 [node name="Sohn" parent="Puppenspieler" index="2"]
 visible = false

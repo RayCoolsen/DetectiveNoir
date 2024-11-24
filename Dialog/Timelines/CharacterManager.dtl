@@ -33,18 +33,3 @@ set {Visibility.Polizei} = {AfterDialogVisibility.ADPolizei}
 set {Visibility.Sohn} = {AfterDialogVisibility.ADSohn}
 [signal]
 return
-label reactivate
-if {AfterDialogVisibility.ADKoch} == true:
-	set {Visibility.Koch} = true
-if {AfterDialogVisibility.ADLady} == true:
-	set {Visibility.Lady} = true
-if {AfterDialogVisibility.ADMagd} == true:
-	set {Visibility.Magd} = true
-if {AfterDialogVisibility.ADNoir} == true:
-	set {Visibility.Noir} = true
-if {AfterDialogVisibility.ADPolizei} == true:
-	set {Visibility.Polizei} = true
-if {AfterDialogVisibility.ADSohn} == true:
-	set {Visibility.Sohn} = true
-[signal]
-return

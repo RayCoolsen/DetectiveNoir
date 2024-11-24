@@ -1,6 +1,6 @@
+jump CharacterManager/save
 jump CharacterManager/hide all
 join Noir center
 Noir: This Garden is magnificent.
 Noir: Hopefully I will find some clues here.
-set {Visibility.Noir} = true
-set {Visibility.Lady} = true
+jump CharacterManager/load
