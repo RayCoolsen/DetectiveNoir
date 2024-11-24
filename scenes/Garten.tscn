@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_rnecq"]
 [ext_resource type="Texture2D" uid="uid://cq4gxmnt455hi" path="res://sprites/Garten.jpeg" id="2_0wm1h"]
-[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/Puppenspieler.tscn" id="5_uw0w1"]
+[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/puppenspieler.tscn" id="5_uw0w1"]
 
 [node name="Garten" type="Node2D"]
 script = ExtResource("1_rnecq")
@@ -19,7 +19,7 @@ offset_left = 623.0
 offset_top = 106.0
 offset_right = 1220.0
 offset_bottom = 1942.0
-character_timeline = "Intro"
+character_timeline = "NoirGarten"
 
 [node name="Lady" parent="Puppenspieler" index="1"]
 offset_left = 270.0

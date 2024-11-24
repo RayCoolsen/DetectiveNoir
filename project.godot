@@ -32,7 +32,9 @@ directories/dch_directory={
 directories/dtl_directory={
 "CharacterManager": "res://Dialog/Timelines/CharacterManager.dtl",
 "GartenLady": "res://Dialog/Timelines/GartenLady.dtl",
-"Intro": "res://Dialog/Timelines/Intro.dtl"
+"Intro": "res://Dialog/Timelines/Intro.dtl",
+"KücheKoch": "res://Dialog/Timelines/KücheKoch.dtl",
+"NoirGarten": "res://NoirGarten.dtl"
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

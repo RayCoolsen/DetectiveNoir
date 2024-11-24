@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7n6mxsiu1p5x"]
+
+[ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_n1ymn"]
+[ext_resource type="Texture2D" uid="uid://c7man7ferekjn" path="res://sprites/Kueche.jpeg" id="2_ra3b2"]
+[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/puppenspieler.tscn" id="3_53ndp"]
+
+[node name="Küche" type="Node2D"]
+script = ExtResource("1_n1ymn")
+default_timeline = "Intro"
+
+[node name="Kueche" type="Sprite2D" parent="."]
+position = Vector2(578, 326)
+texture = ExtResource("2_ra3b2")
+
+[node name="Puppenspieler" parent="." instance=ExtResource("3_53ndp")]
+
+[node name="Noir" parent="Puppenspieler" index="0"]
+offset_left = 248.0
+offset_top = 117.0
+offset_right = 845.0
+offset_bottom = 1953.0
+
+[node name="Lady" parent="Puppenspieler" index="1"]
+visible = false
+
+[node name="Sohn" parent="Puppenspieler" index="2"]
+visible = false
+
+[node name="Magd" parent="Puppenspieler" index="3"]
+visible = false
+
+[node name="Koch" parent="Puppenspieler" index="4"]
+offset_left = 761.0
+offset_top = 112.0
+offset_right = 1317.0
+offset_bottom = 2039.0
+character_timeline = "KücheKoch"
+
+[node name="Polizei" parent="Puppenspieler" index="5"]
+visible = false
+
+[editable path="Puppenspieler"]
