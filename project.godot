@@ -30,9 +30,9 @@ directories/dch_directory={
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
-"GartenTalk": "res://Dialog/Timelines/GartenTalk.dtl",
-"Intro": "res://Dialog/Timelines/Intro.dtl",
-"ManageCharacters": "res://Dialog/Timelines/ManageCharacters.dtl"
+"CharacterManager": "res://Dialog/Timelines/CharacterManager.dtl",
+"GartenLady": "res://Dialog/Timelines/GartenLady.dtl",
+"Intro": "res://Dialog/Timelines/Intro.dtl"
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

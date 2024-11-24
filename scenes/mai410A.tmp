@@ -2,11 +2,10 @@
 
 [ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="1_5bd15"]
 [ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_r82yt"]
-[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/Puppenspieler.tscn" id="5_lmqwr"]
+[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/puppenspieler.tscn" id="5_lmqwr"]
 
 [node name="Study" type="Node2D"]
 script = ExtResource("1_r82yt")
-timeline = "Intro"
 
 [node name="Study" type="Sprite2D" parent="."]
 z_index = -1

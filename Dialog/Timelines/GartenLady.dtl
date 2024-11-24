@@ -1,4 +1,4 @@
-jump ManageCharacters/hide all
+jump CharacterManager/hide all
 join Lady left [animation="Slide In Left" length="0.8"]
 join Noir right [animation="Slide In Right" length="0.8"]
 Noir: Good afternoon, Lady Whitepaw.
