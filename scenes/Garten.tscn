@@ -6,7 +6,6 @@
 
 [node name="Garten" type="Node2D"]
 script = ExtResource("1_rnecq")
-timeline = "GartenLady"
 
 [node name="Garten" type="Sprite2D" parent="."]
 z_index = -1
@@ -16,21 +15,29 @@ texture = ExtResource("2_0wm1h")
 [node name="Puppenspieler" parent="." instance=ExtResource("5_uw0w1")]
 
 [node name="Noir" parent="Puppenspieler" index="0"]
-position = Vector2(879, 389)
+offset_left = 623.0
+offset_top = 106.0
+offset_right = 1220.0
+offset_bottom = 1942.0
+character_timeline = "Intro"
 
 [node name="Lady" parent="Puppenspieler" index="1"]
-position = Vector2(318, 410)
+offset_left = 270.0
+offset_top = 155.0
+offset_right = 1153.0
+offset_bottom = 2178.0
+character_timeline = "GartenLady"
 
-[node name="Polizist" parent="Puppenspieler" index="2"]
+[node name="Sohn" parent="Puppenspieler" index="2"]
 visible = false
 
-[node name="Koch" parent="Puppenspieler" index="3"]
+[node name="Magd" parent="Puppenspieler" index="3"]
 visible = false
 
-[node name="Magd" parent="Puppenspieler" index="4"]
+[node name="Koch" parent="Puppenspieler" index="4"]
 visible = false
 
-[node name="Sohn" parent="Puppenspieler" index="5"]
+[node name="Polizei" parent="Puppenspieler" index="5"]
 visible = false
 
 [editable path="Puppenspieler"]

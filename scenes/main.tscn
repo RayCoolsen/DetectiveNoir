@@ -6,7 +6,7 @@
 
 [node name="Study" type="Node2D"]
 script = ExtResource("1_r82yt")
-timeline = "Intro"
+default_timeline = "Intro"
 
 [node name="Study" type="Sprite2D" parent="."]
 z_index = -1
@@ -17,24 +17,32 @@ texture = ExtResource("1_5bd15")
 [node name="Puppenspieler" parent="." instance=ExtResource("5_lmqwr")]
 
 [node name="Noir" parent="Puppenspieler" index="0"]
-position = Vector2(411, 392)
+offset_left = 337.0
+offset_top = 156.0
+offset_right = 934.0
+offset_bottom = 1992.0
 flip_h = true
+character_timeline = "Intro"
 
 [node name="Lady" parent="Puppenspieler" index="1"]
 visible = false
-position = Vector2(661, 403)
+offset_left = 545.0
+offset_top = 199.0
+offset_right = 1428.0
+offset_bottom = 2222.0
 flip_h = true
+character_timeline = "Intro"
 
-[node name="Polizist" parent="Puppenspieler" index="2"]
+[node name="Sohn" parent="Puppenspieler" index="2"]
 visible = false
 
-[node name="Koch" parent="Puppenspieler" index="3"]
+[node name="Magd" parent="Puppenspieler" index="3"]
 visible = false
 
-[node name="Magd" parent="Puppenspieler" index="4"]
+[node name="Koch" parent="Puppenspieler" index="4"]
 visible = false
 
-[node name="Sohn" parent="Puppenspieler" index="5"]
+[node name="Polizei" parent="Puppenspieler" index="5"]
 visible = false
 
 [editable path="Puppenspieler"]
