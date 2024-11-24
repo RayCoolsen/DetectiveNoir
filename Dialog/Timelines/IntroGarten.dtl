@@ -1,0 +1,6 @@
+jump CharacterManager/save
+jump CharacterManager/hide all
+join Noir center
+Noir: (Garten Intro)
+Noir: (Dieser Text soll nur einmal erscheinen, wenn man den Garten das erste Mal betritt.)
+jump CharacterManager/load

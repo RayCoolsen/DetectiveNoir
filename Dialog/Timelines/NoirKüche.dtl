@@ -1,0 +1,6 @@
+jump CharacterManager/save
+jump CharacterManager/hide all
+join Noir center
+Noir: (Noir Küche)
+Noir: It would be easy to hide something here.
+jump CharacterManager/load

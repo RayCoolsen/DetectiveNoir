@@ -22,7 +22,7 @@ offset_top = 156.0
 offset_right = 934.0
 offset_bottom = 1992.0
 flip_h = true
-character_timeline = "IntroStudy"
+character_timeline = "NoirStudy"
 
 [node name="Lady" parent="Puppenspieler" index="1"]
 visible = false
@@ -31,7 +31,7 @@ offset_top = 199.0
 offset_right = 1428.0
 offset_bottom = 2222.0
 flip_h = true
-character_timeline = "IntroStudy"
+character_timeline = "LadyStudy"
 
 [node name="Sohn" parent="Puppenspieler" index="2"]
 visible = false

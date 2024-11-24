@@ -31,10 +31,15 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "CharacterManager": "res://Dialog/Timelines/CharacterManager.dtl",
+"IntroGarten": "res://Dialog/Timelines/IntroGarten.dtl",
+"IntroKüche": "res://Dialog/Timelines/IntroKüche.dtl",
 "IntroStudy": "res://Dialog/Timelines/IntroStudy.dtl",
 "KochKüche": "res://Dialog/Timelines/KochKüche.dtl",
 "LadyGarten": "res://Dialog/Timelines/LadyGarten.dtl",
-"NoirGarten": "res://Dialog/Timelines/NoirGarten.dtl"
+"LadyStudy": "res://Dialog/Timelines/LadyStudy.dtl",
+"NoirGarten": "res://Dialog/Timelines/NoirGarten.dtl",
+"NoirKüche": "res://Dialog/Timelines/NoirKüche.dtl",
+"NoirStudy": "res://Dialog/Timelines/NoirStudy.dtl"
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

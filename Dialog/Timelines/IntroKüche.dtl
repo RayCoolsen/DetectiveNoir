@@ -1,0 +1,7 @@
+jump CharacterManager/save
+jump CharacterManager/hide all
+join Noir center
+Noir: (Küchen Intro)
+Noir: (Dieser Text soll nur einmal erscheinen, wenn man die Küche das erste Mal betritt.)
+Noir: A well-equipped kitchen. Someone is trying hard to keep things tidy here.
+jump CharacterManager/load
