@@ -3,7 +3,6 @@ extends Node2D
 @onready var wife: Sprite2D = $Wife
 @onready var noir: Sprite2D = $Noir
 
-
 func _ready() -> void:
 	wife.visible = true
 	noir.visible = false

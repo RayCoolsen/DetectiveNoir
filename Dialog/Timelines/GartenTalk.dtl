@@ -6,7 +6,7 @@ Lady: Thank you very much, Mr. Noir.
 Noir: May I ask you a few questions?
 Lady: Ask away.
 - Ask about her husband
-	Lady: *Text über den Ehemann*
+	Lady: *Text über Ehemann*
 - Ask about the other people
 	- Ask about the Maid
 		Lady: Well, we hired her a long time ago. She does her job well, but sometimes she's a bit too nosy.
@@ -14,11 +14,25 @@ Lady: Ask away.
 	- Ask about the Cook
 		Lady: *Text über den Koch*
 	- Ask about the Lady
-		Lady: *Text über die Lady*
+		Lady: Well, I grew up poor. 
+		Lady: I had...
+		Lady: ...nothing
+		Lady: ...
+		Lady: But then, I met Lord *Name vom Lord*.
+		Lady: after some time, we married.
+		I just...
+		Lady: ...
+		I miss him.
+		Noir: I am so sorry for your loss Madamme Whitepaw
 	- Ask about the Detective
-		Lady: *Text über dich*
+		Lady: You are the most well-known detctive in all of Catington.
+		Lady: And, hopefully, the best one too.
+		Lady: I am very exited to help you with your case.
+- Ask about something else
+	- Ask about Clue 1
+	- Ask about Clue 2
 - Dont ask anything.
 	Noir: I have some other matters to attend to, but I'll be right back with you.
 	return
-Noir: Thank you.
+Noir: Thank you for your time.
 [signal arg="ende"]
