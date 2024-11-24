@@ -1,0 +1,18 @@
+label hide all
+set {Visibility.Koch} = false
+set {Visibility.Lady} = false
+set {Visibility.Magd} = false
+set {Visibility.Noir} = false
+set {Visibility.Polizei} = false
+set {Visibility.Sohn} = false
+[signal]
+return
+label show all
+set {Visibility.Koch} = true
+set {Visibility.Lady} = true
+set {Visibility.Magd} = true
+set {Visibility.Noir} = true
+set {Visibility.Polizei} = true
+set {Visibility.Sohn} = true
+[signal]
+return

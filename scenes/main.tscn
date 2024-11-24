@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://t2s6sc6d1y5e"]
+[gd_scene load_steps=4 format=3 uid="uid://t2s6sc6d1y5e"]
 
 [ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="1_5bd15"]
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_ew711"]
-[ext_resource type="Texture2D" uid="uid://o7wssmg5rtyf" path="res://sprites/Noir.png" id="3_ecler"]
-[ext_resource type="Texture2D" uid="uid://co3ia0pryunvn" path="res://sprites/Wife.png" id="4_r3l87"]
+[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/puppenspieler.tscn" id="5_lmqwr"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_ew711")
@@ -14,14 +13,27 @@ position = Vector2(574, 337)
 scale = Vector2(0.73, 0.73)
 texture = ExtResource("1_5bd15")
 
-[node name="Detektive" type="Sprite2D" parent="."]
+[node name="Puppenspieler" parent="." instance=ExtResource("5_lmqwr")]
+
+[node name="Noir" parent="Puppenspieler" index="0"]
 position = Vector2(411, 392)
-scale = Vector2(0.25, 0.25)
-texture = ExtResource("3_ecler")
 flip_h = true
 
-[node name="Ehefrau" type="Sprite2D" parent="."]
+[node name="Lady" parent="Puppenspieler" index="1"]
+visible = false
 position = Vector2(661, 403)
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("4_r3l87")
 flip_h = true
+
+[node name="Polizist" parent="Puppenspieler" index="2"]
+visible = false
+
+[node name="Koch" parent="Puppenspieler" index="3"]
+visible = false
+
+[node name="Magd" parent="Puppenspieler" index="4"]
+visible = false
+
+[node name="Sohn" parent="Puppenspieler" index="5"]
+visible = false
+
+[editable path="Puppenspieler"]

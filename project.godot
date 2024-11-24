@@ -31,7 +31,8 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "GartenTalk": "res://Dialog/Timelines/GartenTalk.dtl",
-"Intro": "res://Dialog/Timelines/Intro.dtl"
+"Intro": "res://Dialog/Timelines/Intro.dtl",
+"ManageCharacters": "res://Dialog/Timelines/ManageCharacters.dtl"
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
@@ -57,7 +58,16 @@ text/autocolor_names=true
 text/autopauses={}
 layout/style_list=[]
 layout/default_style="Default"
-variables={}
+variables={
+"Visibility": {
+"Koch": false,
+"Lady": false,
+"Magd": false,
+"Noir": false,
+"Polizei": false,
+"Sohn": false
+}
+}
 
 [editor_plugins]
 

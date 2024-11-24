@@ -1,3 +1,4 @@
+jump ManageCharacters/hide all
 join Lady left [animation="Slide In Left" length="0.8"]
 join Noir right [animation="Slide In Right" length="0.8"]
 Noir: Good afternoon, Lady Whitepaw.
@@ -14,7 +15,7 @@ Lady: Ask away.
 	- Ask about the Cook
 		Lady: *Text über den Koch*
 	- Ask about the Lady
-		Lady: Well, I grew up poor. 
+		Lady: Well, I grew up poor.
 		Lady: I had...
 		Lady: ...nothing
 		Lady: ...
@@ -35,4 +36,6 @@ Lady: Ask away.
 	Noir: I have some other matters to attend to, but I'll be right back with you.
 	return
 Noir: Thank you for your time.
-[signal arg="ende"]
+set {Visibility.Noir} = true
+set {Visibility.Lady} = true
+[signal]

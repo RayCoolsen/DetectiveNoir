@@ -1,3 +1,4 @@
+jump ManageCharacters/hide all
 join Noir center [animation="Slide In Left" length="0.8" mirrored="true"]
 Noir: Interesting...
 Noir: Interesting...
@@ -29,5 +30,7 @@ Noir: I'll go with you to Whitepaw Manor in a moment to investigate the case.
 Noir: I just have to gather my instuments quickly.
 leave Noir [animation="Zoom Out"]
 leave Lady [animation="Zoom Out"]
-[signal arg="ende"]
+set {Visibility.Noir} = true
+set {Visibility.Lady} = true
+[signal]
 Tutorial\: Inventar, Item / Person intearaktion
