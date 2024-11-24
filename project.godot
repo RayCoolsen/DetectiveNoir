@@ -59,6 +59,14 @@ text/autopauses={}
 layout/style_list=[]
 layout/default_style="Default"
 variables={
+"AfterDialogVisibility": {
+"ADKoch": false,
+"ADLady": false,
+"ADMagd": false,
+"ADNoir": false,
+"ADPolizei": false,
+"ADSohn": false
+},
 "Visibility": {
 "Koch": false,
 "Lady": false,

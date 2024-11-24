@@ -16,3 +16,35 @@ set {Visibility.Polizei} = true
 set {Visibility.Sohn} = true
 [signal]
 return
+label save
+set {AfterDialogVisibility.ADKoch} = {Visibility.Koch}
+set {AfterDialogVisibility.ADLady} = {Visibility.Lady}
+set {AfterDialogVisibility.ADMagd} = {Visibility.Magd}
+set {AfterDialogVisibility.ADNoir} = {Visibility.Noir}
+set {AfterDialogVisibility.ADPolizei} = {Visibility.Polizei}
+set {AfterDialogVisibility.ADSohn} = {Visibility.Sohn}
+return
+label load
+set {Visibility.Koch} = {AfterDialogVisibility.ADKoch}
+set {Visibility.Lady} = {AfterDialogVisibility.ADLady}
+set {Visibility.Magd} = {AfterDialogVisibility.ADMagd}
+set {Visibility.Noir} = {AfterDialogVisibility.ADNoir}
+set {Visibility.Polizei} = {AfterDialogVisibility.ADPolizei}
+set {Visibility.Sohn} = {AfterDialogVisibility.ADSohn}
+[signal]
+return
+label reactivate
+if {AfterDialogVisibility.ADKoch} == true:
+	set {Visibility.Koch} = true
+if {AfterDialogVisibility.ADLady} == true:
+	set {Visibility.Lady} = true
+if {AfterDialogVisibility.ADMagd} == true:
+	set {Visibility.Magd} = true
+if {AfterDialogVisibility.ADNoir} == true:
+	set {Visibility.Noir} = true
+if {AfterDialogVisibility.ADPolizei} == true:
+	set {Visibility.Polizei} = true
+if {AfterDialogVisibility.ADSohn} == true:
+	set {Visibility.Sohn} = true
+[signal]
+return
