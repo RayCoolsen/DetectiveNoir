@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1dw4wogylpn7"]
+
+[ext_resource type="PackedScene" uid="uid://t2s6sc6d1y5e" path="res://scenes/Study.tscn" id="1_50201"]
+[ext_resource type="Script" path="res://scenes/game.gd" id="1_y3vmq"]
+[ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/buttonspieler.tscn" id="3_fggci"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_y3vmq")
+
+[node name="Study" parent="." instance=ExtResource("1_50201")]
+visible = false
+
+[node name="Buttonspieler" parent="." instance=ExtResource("3_fggci")]
+
+[node name="KücheButton" parent="Buttonspieler" index="0"]
+nachricht = "kueche"
+
+[editable path="Buttonspieler"]

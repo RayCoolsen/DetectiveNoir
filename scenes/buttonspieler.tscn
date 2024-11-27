@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1rgcmjqdo8x8"]
+
+[ext_resource type="Texture2D" uid="uid://fuas0idis34x" path="res://sprites/Banner.png" id="1_8i8ww"]
+[ext_resource type="Script" path="res://scenes/buttonspieler.gd" id="1_p1b53"]
+[ext_resource type="Script" path="res://scenes/SzeneButton.gd" id="2_k0faf"]
+
+[node name="Buttonspieler" type="Node2D"]
+script = ExtResource("1_p1b53")
+
+[node name="KücheButton" type="TextureButton" parent="."]
+offset_left = 1062.0
+offset_top = 252.0
+offset_right = 2927.0
+offset_bottom = 792.0
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("1_8i8ww")
+script = ExtResource("2_k0faf")
+
+[connection signal="pressed" from="KücheButton" to="KücheButton" method="_on_pressed"]

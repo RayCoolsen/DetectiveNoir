@@ -3,7 +3,6 @@ extends Node2D
 @export var default_timeline : String
 @onready var puppenspieler: Node2D = $Puppenspieler
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	puppenspieler.dialog_request.connect(_on_dialog_request)
