@@ -7,6 +7,7 @@
 [node name="Study" type="Node2D"]
 script = ExtResource("1_4o7dq")
 default_timeline = "IntroStudy"
+loc = 1
 
 [node name="Study" type="Sprite2D" parent="."]
 z_index = -1

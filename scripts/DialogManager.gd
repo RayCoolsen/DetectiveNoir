@@ -1,12 +1,17 @@
 extends Node2D
 
 @export var default_timeline : String
+@export var loc : Memory.LOCATION
 @onready var puppenspieler: Node2D = $Puppenspieler
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	print("READY" + default_timeline)
 	puppenspieler.dialog_request.connect(_on_dialog_request)
 	start_dialog(default_timeline)
+
+func _enter_tree():
+	Memory.ActLoc = loc
 
 func _on_dialog_request(requested_timeline: String):
 	start_dialog(requested_timeline)
