@@ -6,15 +6,11 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	print("READY" + default_timeline)
-	puppenspieler.dialog_request.connect(_on_dialog_request)
+	puppenspieler.dialog_request.connect(start_dialog)
 	start_dialog(default_timeline)
 
 func _enter_tree():
 	Memory.ActLoc = loc
-
-func _on_dialog_request(requested_timeline: String):
-	start_dialog(requested_timeline)
 
 func start_dialog(timeline: String):
 	if Dialogic.current_timeline != null || timeline.is_empty():
