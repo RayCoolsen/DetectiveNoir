@@ -1,5 +1,4 @@
-jump CharacterManager/save
-jump CharacterManager/hide all
+[signal arg="hide"]
 join Lady left [animation="Slide In Left" length="0.8"]
 join Noir right [animation="Slide In Right" length="0.8"]
 Noir: Good afternoon, Lady Whitepaw.
@@ -38,4 +37,4 @@ Lady: Ask away.
 - Dont ask anything.
 	Noir: I have some other matters to attend to, but I'll be right back with you.
 Noir: Thank you for your time.
-jump CharacterManager/load
+[signal]

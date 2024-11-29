@@ -11,6 +11,7 @@ func _ready() -> void:
 
 func _enter_tree():
 	Memory.ActLoc = loc
+	Memory.NoirLoc = loc
 
 func start_dialog(timeline: String):
 	if Dialogic.current_timeline != null || timeline.is_empty():

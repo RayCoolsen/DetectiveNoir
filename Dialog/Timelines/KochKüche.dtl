@@ -1,5 +1,5 @@
-jump CharacterManager/save
-jump CharacterManager/hide all
+[signal arg="hide"]
 join Koch right
+Koch: (KochKüche)
 Koch: Droggelbecher
-jump CharacterManager/load
+[signal]

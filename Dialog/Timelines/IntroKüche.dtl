@@ -1,7 +1,8 @@
-jump CharacterManager/save
-jump CharacterManager/hide all
+[signal arg="hide"]
 join Noir center
+set {Memory.KochLoc} = Memory.LOCATION.KUECHE
+set {Memory.MagdLoc} = Memory.LOCATION.KUECHE
 Noir: (Küchen Intro)
 Noir: (Dieser Text soll nur einmal erscheinen, wenn man die Küche das erste Mal betritt.)
 Noir: A well-equipped kitchen. Someone is trying hard to keep things tidy here.
-jump CharacterManager/load
+[signal]

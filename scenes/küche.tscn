@@ -29,7 +29,11 @@ visible = false
 visible = false
 
 [node name="Magd" parent="Puppenspieler" index="3"]
-visible = false
+offset_left = 831.0
+offset_top = 117.0
+offset_right = 1676.0
+offset_bottom = 2051.0
+character_timeline = "MagdKüche"
 
 [node name="Koch" parent="Puppenspieler" index="4"]
 offset_left = 595.0

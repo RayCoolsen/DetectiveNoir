@@ -32,9 +32,3 @@ func szenewechsel(argument : Memory.LOCATION):
 	elif argument == Memory.LOCATION.STUDY:
 		aktuell = STUDY
 	self.add_child(aktuell)
-		#.remove_child(szene)
-		#.queue_free(szene)
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass

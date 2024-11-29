@@ -7,15 +7,3 @@
 script = ExtResource("1_y3vmq")
 
 [node name="Buttonspieler" parent="." instance=ExtResource("3_fggci")]
-z_index = 1
-
-[node name="KücheButton" parent="Buttonspieler" index="0"]
-z_index = 1
-
-[node name="StudyButton" parent="Buttonspieler" index="1"]
-nachricht = 1
-
-[node name="GartenButton" parent="Buttonspieler" index="2"]
-nachricht = 2
-
-[editable path="Buttonspieler"]

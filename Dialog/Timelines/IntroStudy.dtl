@@ -1,15 +1,13 @@
-jump CharacterManager/save
-jump CharacterManager/hide all
+[signal arg="hide"]
 join Noir center [animation="Slide In Left" length="0.8" mirrored="true"]
 Noir: Interesting...
 Noir: Interesting...
 Noir: Very interesting...
-return
 *knock knock*
 Lady: May I enter?
 update Noir left [move_time="0.4"]
 join Lady right [animation="Slide In Right" length="0.7" mirrored="true"]
-set {AfterDialogVisibility.ADLady} = true
+set {Memory.LadyLoc} = Memory.LOCATION.STUDY
 Lady: Are you the famous Detective Noir?
 Noir: Yes,  you may. Yes I am.
 Noir: Have a seat, you're shivering from the cold.
@@ -33,5 +31,5 @@ Noir: I'll go with you to Whitepaw Manor in a moment to investigate the case.
 Noir: I just have to gather my instuments quickly.
 leave Noir [animation="Zoom Out"]
 leave Lady [animation="Zoom Out"]
-jump CharacterManager/load
+[signal]
 Tutorial\: Inventar, Item / Person intearaktion
