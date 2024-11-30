@@ -13,7 +13,7 @@ func _ready() -> void:
 	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/Bedroom.tscn").instantiate()
 	szenewechsel(Memory.LOCATION.STUDY)
 
-func szenewechsel(argument : Memory.LOCATION):
+func szenewechsel(argument : Memory.LOCATION) -> void:
 	if aktuell != null:
 		self.remove_child(aktuell)
 	aktuell = szene_dict[argument]

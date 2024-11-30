@@ -7,7 +7,7 @@ Noir: Very interesting...
 Lady: May I enter?
 update Noir left [move_time="0.4"]
 join Lady right [animation="Slide In Right" length="0.7" mirrored="true"]
-set {Memory.LadyLoc} = Memory.LOCATION.STUDY
+do Memory.set_character_location(Memory.CHARACTER.LADY, Memory.LOCATION.STUDY)
 Lady: Are you the famous Detective Noir?
 Noir: Yes,  you may. Yes I am.
 Noir: Have a seat, you're shivering from the cold.
