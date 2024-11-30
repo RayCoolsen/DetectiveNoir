@@ -17,5 +17,5 @@ var ActLoc : LOCATION
 func set_character_location(character: CHARACTER, location: LOCATION) -> void:
 	character_dict[character] = location
 
-func character_in_room(character : CHARACTER) -> bool:
+func character_at_location(character : CHARACTER) -> bool:
 	return character_dict[character] == ActLoc

@@ -19,4 +19,4 @@ func visibility_dialog(argument : String) -> void:
 	else: visibility_room()
 
 func visibility_room() -> void:
-	visible = Memory.character_in_room(character)
+	visible = Memory.character_at_location(character)
