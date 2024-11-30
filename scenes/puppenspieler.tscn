@@ -30,7 +30,7 @@ character = 1
 [node name="Sohn" type="TextureButton" parent="."]
 offset_right = 549.0
 offset_bottom = 2034.0
-scale = Vector2(0.25, 0.25)
+scale = Vector2(0.23, 0.23)
 texture_normal = ExtResource("6_d04n8")
 script = ExtResource("8_ykchk")
 character = 4
@@ -38,7 +38,7 @@ character = 4
 [node name="Magd" type="TextureButton" parent="."]
 offset_right = 845.0
 offset_bottom = 1934.0
-scale = Vector2(0.25, 0.25)
+scale = Vector2(0.225, 0.225)
 texture_normal = ExtResource("5_cxq2y")
 script = ExtResource("8_ykchk")
 character = 5
@@ -46,7 +46,7 @@ character = 5
 [node name="Koch" type="TextureButton" parent="."]
 offset_right = 40.0
 offset_bottom = 40.0
-scale = Vector2(0.25, 0.25)
+scale = Vector2(0.26, 0.26)
 texture_normal = ExtResource("4_214xl")
 script = ExtResource("8_ykchk")
 character = 2
@@ -54,7 +54,7 @@ character = 2
 [node name="Polizei" type="TextureButton" parent="."]
 offset_right = 40.0
 offset_bottom = 40.0
-scale = Vector2(0.25, 0.25)
+scale = Vector2(0.27, 0.27)
 texture_normal = ExtResource("8_3sotw")
 script = ExtResource("8_ykchk")
 character = 3

@@ -6,7 +6,7 @@ extends TextureButton
 signal character_dialog_request(argument: String)
 
 func _ready() -> void:
-	Dialogic.signal_event.connect(dialog_visibility)
+	Dialogic.signal_event.connect(visibility_dialog)
 
 func _enter_tree():
 	visibility_room()
@@ -14,7 +14,7 @@ func _enter_tree():
 func _on_pressed() -> void:
 	character_dialog_request.emit(character_timeline)
 
-func dialog_visibility(argument : String) -> void:
+func visibility_dialog(argument : String) -> void:
 	if(argument == "hide"): visible = false
 	else: visibility_room()
 
