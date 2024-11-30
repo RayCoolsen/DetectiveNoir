@@ -8,5 +8,5 @@ func _ready() -> void:
 		child.knopfgedrueckt.connect(on_knopfgedrueckt)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func on_knopfgedrueckt(argument : Memory.LOCATION):
+func on_knopfgedrueckt(argument : Memory.LOCATION) -> void:
 	szenewechsel.emit(argument)

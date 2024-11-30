@@ -9,11 +9,11 @@ func _ready() -> void:
 	puppenspieler.dialog_request.connect(start_dialog)
 	start_dialog(default_timeline)
 
-func _enter_tree():
+func _enter_tree() -> void:
 	Memory.ActLoc = loc
 	Memory.character_dict[Memory.CHARACTER.NOIR] = loc
 
-func start_dialog(timeline: String):
+func start_dialog(timeline: String) -> void:
 	if Dialogic.current_timeline != null || timeline.is_empty():
 		return
 	Dialogic.start(timeline)

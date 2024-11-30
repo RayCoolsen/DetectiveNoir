@@ -8,7 +8,7 @@ signal character_dialog_request(argument: String)
 func _ready() -> void:
 	Dialogic.signal_event.connect(visibility_dialog)
 
-func _enter_tree():
+func _enter_tree() -> void:
 	visibility_room()
 
 func _on_pressed() -> void:
