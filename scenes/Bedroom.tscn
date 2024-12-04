@@ -6,7 +6,6 @@
 
 [node name="Bedroom" type="Node2D"]
 script = ExtResource("1_2iax6")
-loc = 3
 
 [node name="Bedroom" type="Sprite2D" parent="."]
 position = Vector2(577, 323)

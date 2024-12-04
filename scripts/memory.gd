@@ -14,6 +14,10 @@ var character_dict = {
 
 var ActLoc : LOCATION
 
+func change_active_location(location: LOCATION) -> void:
+	ActLoc = location
+	set_character_location(CHARACTER.NOIR, location)
+
 func set_character_location(character: CHARACTER, location: LOCATION) -> void:
 	character_dict[character] = location
 
