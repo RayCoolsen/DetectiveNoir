@@ -1,9 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://b1dw4wogylpn7"]
+[gd_scene load_steps=4 format=3 uid="uid://b1dw4wogylpn7"]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_y3vmq"]
 [ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/buttonspieler.tscn" id="3_fggci"]
+[ext_resource type="PackedScene" uid="uid://bukys3elbekqd" path="res://scenes/inventarspieler.tscn" id="3_qswfo"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_y3vmq")
 
 [node name="Buttonspieler" parent="." instance=ExtResource("3_fggci")]
+
+[node name="Inventarspieler" parent="." instance=ExtResource("3_qswfo")]
