@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgcqv2m6mki1w"]
+
+[ext_resource type="Texture2D" uid="uid://1lqigp5dkrbn" path="res://sprites/icon.svg" id="1_ji7rg"]
+
+[node name="ItemSlot" type="PanelContainer"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_ji7rg")
