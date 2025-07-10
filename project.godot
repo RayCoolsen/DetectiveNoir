@@ -68,6 +68,10 @@ layout/style_list=[]
 layout/default_style="Default"
 variables={}
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
