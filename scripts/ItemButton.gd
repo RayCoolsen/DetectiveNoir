@@ -1,7 +1,7 @@
 extends TextureButton
-@export var item:Item
 
-signal knopfgedrueckt(argument : Item)
+@export var collectible_item: Item
+signal item_pickup_requested(item: Item)
 
 func _on_pressed() -> void:
-	knopfgedrueckt.emit(item)
+	item_pickup_requested.emit(collectible_item)

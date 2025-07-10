@@ -1,11 +1,11 @@
 extends Node2D
-@onready var texture_button: TextureButton = $TextureButton
+@onready var item_button: TextureButton = $TextureButton
 
-signal item_collect(argument:Item)
+signal item_pickup_requested(item: Item)
 
 func _ready() -> void:
-	texture_button.knopfgedrueckt.connect(on_knopfgedrueckt)
+	item_button.item_pickup_requested.connect(on_item_pickup_requested)
 
-func on_knopfgedrueckt(argument : Item):
-	item_collect.emit(argument)
-	print ("Ich wurde gedrückt!" + argument.name)
+func on_item_pickup_requested(item: Item) -> void:
+	item_pickup_requested.emit(item)
+	print("Item pickup requested: " + item.name)

@@ -8,7 +8,7 @@ var szene_dict = {}
 
 func _ready() -> void:
 	buttonspieler.room_change_requested.connect(szenewechsel)
-	inventar_spieler.item_collect.connect(on_item_picked_up)
+	inventar_spieler.item_pickup_requested.connect(on_item_pickup_requested)
 	_load_scenes()
 	szenewechsel(Memory.LOCATION.STUDY)
 
@@ -18,7 +18,7 @@ func _load_scenes() -> void:
 	szene_dict[Memory.LOCATION.STUDY]  = preload("res://scenes/Study.tscn").instantiate()
 	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/Bedroom.tscn").instantiate()
 
-func on_item_picked_up(item:Item):
+func on_item_pickup_requested(item:Item):
 	print("I got a ", item.name)
 
 func szenewechsel(szene : Memory.LOCATION) -> void:
