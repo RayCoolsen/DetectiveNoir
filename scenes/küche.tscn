@@ -20,7 +20,7 @@ offset_left = 248.0
 offset_top = 117.0
 offset_right = 845.0
 offset_bottom = 1953.0
-character_timeline = "NoirKüche"
+dialog_timeline = "NoirKüche"
 
 [node name="Lady" parent="Puppenspieler" index="1"]
 visible = false
@@ -33,14 +33,14 @@ offset_left = 811.0
 offset_top = 159.0
 offset_right = 1656.0
 offset_bottom = 2093.0
-character_timeline = "MagdKüche"
+dialog_timeline = "MagdKüche"
 
 [node name="Koch" parent="Puppenspieler" index="4"]
 offset_left = 581.0
 offset_top = 90.0
 offset_right = 1137.0
 offset_bottom = 2017.0
-character_timeline = "KochKüche"
+dialog_timeline = "KochKüche"
 
 [node name="Polizei" parent="Puppenspieler" index="5"]
 visible = false

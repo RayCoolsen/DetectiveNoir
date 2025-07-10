@@ -20,14 +20,14 @@ offset_left = 623.0
 offset_top = 106.0
 offset_right = 1220.0
 offset_bottom = 1942.0
-character_timeline = "NoirGarten"
+dialog_timeline = "NoirGarten"
 
 [node name="Lady" parent="Puppenspieler" index="1"]
 offset_left = 270.0
 offset_top = 155.0
 offset_right = 1153.0
 offset_bottom = 2178.0
-character_timeline = "LadyGarten"
+dialog_timeline = "LadyGarten"
 
 [node name="Sohn" parent="Puppenspieler" index="2"]
 visible = false

@@ -1,10 +1,10 @@
 extends Node2D
 
-signal dialog_request(argument: String)
+signal dialog_requested(timeline: String)
 
 func _ready() -> void:
 	for child in get_children():
-		child.character_dialog_request.connect(_on_character_dialog_request)
+		child.dialog_requested.connect(on_dialog_requested)
 
-func _on_character_dialog_request(requested_timeline: String) -> void:
-	dialog_request.emit(requested_timeline)
+func on_dialog_requested(timeline: String) -> void:
+	dialog_requested.emit(timeline)
