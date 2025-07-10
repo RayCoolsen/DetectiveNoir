@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://dfd6jyd8e4f2d"]
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://dfd6jyd8e4f2d"]
 
+[ext_resource type="Texture2D" uid="uid://1lqigp5dkrbn" path="res://sprites/icon.svg" id="1_ct2ys"]
 [ext_resource type="Script" path="res://scripts/item.gd" id="1_l44tx"]
 [ext_resource type="Texture2D" uid="uid://dqarujy0lxkt3" path="res://sprites/Magd.png" id="2_xbnbk"]
 
@@ -7,3 +8,4 @@
 script = ExtResource("1_l44tx")
 name = "Lupe"
 texture = ExtResource("2_xbnbk")
+icon = ExtResource("1_ct2ys")

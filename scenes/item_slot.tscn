@@ -1,9 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://dgcqv2m6mki1w"]
 
-[ext_resource type="Texture2D" uid="uid://1lqigp5dkrbn" path="res://sprites/icon.svg" id="1_ji7rg"]
+[ext_resource type="Script" path="res://scripts/item_slot.gd" id="1_1074p"]
 
 [node name="ItemSlot" type="PanelContainer"]
+script = ExtResource("1_1074p")
 
 [node name="TextureRect" type="TextureRect" parent="."]
+unique_name_in_owner = true
 layout_mode = 2
-texture = ExtResource("1_ji7rg")

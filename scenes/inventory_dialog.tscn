@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://nrdwb3wrbqao"]
+[gd_scene load_steps=3 format=3 uid="uid://nrdwb3wrbqao"]
 
-[ext_resource type="Texture2D" uid="uid://1lqigp5dkrbn" path="res://sprites/icon.svg" id="1_gbmyu"]
+[ext_resource type="Script" path="res://scripts/inventory_dialog.gd" id="1_f0je8"]
+[ext_resource type="PackedScene" uid="uid://dgcqv2m6mki1w" path="res://scenes/item_slot.tscn" id="2_hg1op"]
 
 [node name="InventoryDialog" type="PanelContainer"]
 anchors_preset = 15
@@ -8,6 +9,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_f0je8")
+slot_scene = ExtResource("2_hg1op")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
@@ -26,11 +29,7 @@ layout_mode = 2
 text = " X "
 
 [node name="GridContainer" type="GridContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 
-[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/GridContainer"]
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="VBoxContainer/GridContainer/PanelContainer"]
-layout_mode = 2
-texture = ExtResource("1_gbmyu")
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/CloseButton" to="." method="_on_close_button_pressed"]
