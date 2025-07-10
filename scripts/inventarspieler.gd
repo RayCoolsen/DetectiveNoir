@@ -1,5 +1,5 @@
 extends Node2D
-@onready var item_button: TextureButton = $TextureButton
+@onready var item_button: TextureButton = $Lupe
 
 signal item_pickup_requested(item: Item)
 

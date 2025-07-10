@@ -10,3 +10,4 @@ func _ready() -> void:
 
 func _on_pressed() -> void:
 	item_pickup_requested.emit(collectible_item)
+	queue_free()

@@ -10,4 +10,3 @@ script = ExtResource("1_y3vmq")
 [node name="Buttonspieler" parent="." instance=ExtResource("3_fggci")]
 
 [node name="Inventarspieler" parent="." instance=ExtResource("3_qswfo")]
-visible = false
