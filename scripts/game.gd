@@ -3,7 +3,7 @@ extends Node2D
 @onready var buttonspieler: Node2D = $Buttonspieler
 @onready var inventar_spieler: Node2D = $Inventarspieler
 
-var aktuell
+var current_szene
 var szene_dict = {}
 
 func _ready() -> void:
@@ -22,8 +22,8 @@ func on_item_picked_up(argument:Item):
 	print("I got a ", argument.name)
 
 func szenewechsel(szene : Memory.LOCATION) -> void:
-	if aktuell != null:
-		self.remove_child(aktuell)
+	if current_szene != null:
+		self.remove_child(current_szene)
 	Memory.change_active_location(szene)
-	aktuell = szene_dict[szene]
-	self.add_child(aktuell)
+	current_szene = szene_dict[szene]
+	self.add_child(current_szene)
