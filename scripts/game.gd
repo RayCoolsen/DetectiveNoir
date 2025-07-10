@@ -7,7 +7,7 @@ var current_szene
 var szene_dict = {}
 
 func _ready() -> void:
-	buttonspieler.szenewechsel.connect(szenewechsel)
+	buttonspieler.room_change_requested.connect(szenewechsel)
 	inventar_spieler.item_collect.connect(on_item_picked_up)
 	_load_scenes()
 	szenewechsel(Memory.LOCATION.STUDY)
@@ -18,8 +18,8 @@ func _load_scenes() -> void:
 	szene_dict[Memory.LOCATION.STUDY]  = preload("res://scenes/Study.tscn").instantiate()
 	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/Bedroom.tscn").instantiate()
 
-func on_item_picked_up(argument:Item):
-	print("I got a ", argument.name)
+func on_item_picked_up(item:Item):
+	print("I got a ", item.name)
 
 func szenewechsel(szene : Memory.LOCATION) -> void:
 	if current_szene != null:

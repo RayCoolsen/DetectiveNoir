@@ -1,12 +1,10 @@
 extends Node2D
 
-signal szenewechsel(argument : Memory.LOCATION)
+signal room_change_requested(target_location : Memory.LOCATION)
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	for child in get_children():
-		child.knopfgedrueckt.connect(on_knopfgedrueckt)
+		child.room_change_requested.connect(on_room_change_requested)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func on_knopfgedrueckt(argument : Memory.LOCATION) -> void:
-	szenewechsel.emit(argument)
+func on_room_change_requested(target_location : Memory.LOCATION) -> void:
+	room_change_requested.emit(target_location)
