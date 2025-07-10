@@ -9,11 +9,14 @@ var szene_dict = {}
 func _ready() -> void:
 	buttonspieler.szenewechsel.connect(szenewechsel)
 	inventar_spieler.item_collect.connect(on_item_picked_up)
+	_load_scenes()
+	szenewechsel(Memory.LOCATION.STUDY)
+
+func _load_scenes() -> void:
 	szene_dict[Memory.LOCATION.KUECHE]  = preload("res://scenes/Küche.tscn").instantiate()
 	szene_dict[Memory.LOCATION.GARTEN]  = preload("res://scenes/Garten.tscn").instantiate()
 	szene_dict[Memory.LOCATION.STUDY]  = preload("res://scenes/Study.tscn").instantiate()
 	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/Bedroom.tscn").instantiate()
-	szenewechsel(Memory.LOCATION.STUDY)
 
 func on_item_picked_up(argument:Item):
 	print("I got a ", argument.name)
