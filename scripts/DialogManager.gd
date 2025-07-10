@@ -9,7 +9,7 @@ func _ready() -> void:
 	start_dialog(default_timeline)
 
 func start_dialog(timeline: String) -> void:
-	if Dialogic.current_timeline != null || timeline.is_empty():
+	if Dialogic.current_timeline != null or timeline.is_empty():
 		return
 	Dialogic.start(timeline)
 	get_viewport().set_input_as_handled()

@@ -1,7 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://bukys3elbekqd"]
+[gd_scene load_steps=4 format=3 uid="uid://bukys3elbekqd"]
 
 [ext_resource type="Script" path="res://scripts/inventarspieler.gd" id="1_d4r0u"]
-[ext_resource type="Texture2D" uid="uid://dqarujy0lxkt3" path="res://sprites/Magd.png" id="2_fq7ix"]
 [ext_resource type="Script" path="res://scripts/ItemButton.gd" id="3_gbilt"]
 [ext_resource type="Resource" uid="uid://dfd6jyd8e4f2d" path="res://Items/Lupe.tres" id="4_ipwwr"]
 
@@ -12,7 +11,6 @@ script = ExtResource("1_d4r0u")
 offset_right = 845.0
 offset_bottom = 1934.0
 scale = Vector2(0.5, 0.5)
-texture_normal = ExtResource("2_fq7ix")
 script = ExtResource("3_gbilt")
 collectible_item = ExtResource("4_ipwwr")
 
