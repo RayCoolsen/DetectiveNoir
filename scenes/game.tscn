@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://b1dw4wogylpn7"]
+[gd_scene load_steps=6 format=3 uid="uid://b1dw4wogylpn7"]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_y3vmq"]
 [ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/buttonspieler.tscn" id="3_fggci"]
 [ext_resource type="PackedScene" uid="uid://bukys3elbekqd" path="res://scenes/inventarspieler.tscn" id="3_qswfo"]
+[ext_resource type="PackedScene" uid="uid://nrdwb3wrbqao" path="res://scenes/inventory_dialog.tscn" id="4_uqb4u"]
+[ext_resource type="Script" path="res://scripts/ui_root.gd" id="4_uxc8n"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_y3vmq")
@@ -10,3 +12,19 @@ script = ExtResource("1_y3vmq")
 [node name="Buttonspieler" parent="." instance=ExtResource("3_fggci")]
 
 [node name="Inventarspieler" parent="." instance=ExtResource("3_qswfo")]
+
+[node name="UIRoot" type="CanvasLayer" parent="."]
+script = ExtResource("4_uxc8n")
+
+[node name="InventoryDialog" parent="UIRoot" instance=ExtResource("4_uqb4u")]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -114.5
+offset_top = -17.5
+offset_right = 114.5
+offset_bottom = 17.5
