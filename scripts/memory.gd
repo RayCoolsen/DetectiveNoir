@@ -40,6 +40,12 @@ func _ready() -> void:
 func has_item_in_inventory(item: Item) -> bool:
 	return inventory.has_item(item)
 
+func add_item_to_inventory(item: Item) -> void:
+	inventory.add_item(item)
+
+func remove_item_from_inventory(item: Item) -> void:
+	inventory.remove_item(item)
+
 func change_active_location(location: LOCATION) -> void:
 	ActLoc = location
 	set_character_location(CHARACTER.NOIR, location)

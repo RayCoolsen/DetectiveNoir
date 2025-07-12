@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://yj6386j11akn"]
+
+[ext_resource type="Script" path="res://scripts/item.gd" id="1_1he31"]
+[ext_resource type="Texture2D" uid="uid://bqr8mrlcaoe5r" path="res://sprites/icon2.png" id="1_eu6cu"]
+[ext_resource type="Texture2D" uid="uid://8svarx7yk3j1" path="res://sprites/Koch.png" id="2_w67iw"]
+
+[resource]
+script = ExtResource("1_1he31")
+name = "Schokolade"
+texture = ExtResource("2_w67iw")
+icon = ExtResource("1_eu6cu")
