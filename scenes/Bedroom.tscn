@@ -29,6 +29,7 @@ offset_left = 758.0
 offset_top = 178.0
 offset_right = 1307.0
 offset_bottom = 2212.0
+dialog_timeline = "SohnBedroom"
 
 [node name="Magd" parent="Puppenspieler" index="3"]
 visible = false
