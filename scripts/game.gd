@@ -6,7 +6,7 @@ var current_stage: Node2D = null
 var stage_dict = {}
 
 func _ready() -> void:
-	stage_manager.room_change_requested.connect(change_stage)
+	stage_manager.stage_change_requested.connect(change_stage)
 	_load_scenes()
 	change_stage(Memory.LOCATION.STUDY)
 
