@@ -1,48 +1,47 @@
-[gd_scene load_steps=4 format=3 uid="uid://c7n6mxsiu1p5x"]
+[gd_scene load_steps=3 format=3 uid="uid://c7n6mxsiu1p5x"]
 
-[ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_k8cjr"]
 [ext_resource type="Texture2D" uid="uid://c7man7ferekjn" path="res://sprites/Kueche.jpeg" id="2_rngw8"]
-[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/Puppenspieler.tscn" id="3_s74ws"]
+[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/dialog_manager.tscn" id="2_tgvej"]
 
 [node name="Küche" type="Node2D"]
-script = ExtResource("1_k8cjr")
-default_timeline = "IntroKüche"
 
 [node name="Kueche" type="Sprite2D" parent="."]
 position = Vector2(578, 326)
 scale = Vector2(1.175, 1.175)
 texture = ExtResource("2_rngw8")
 
-[node name="Puppenspieler" parent="." instance=ExtResource("3_s74ws")]
+[node name="DialogManager" parent="." instance=ExtResource("2_tgvej")]
+default_timeline = "IntroKüche"
 
-[node name="Noir" parent="Puppenspieler" index="0"]
+[node name="Noir" parent="DialogManager/Puppenspieler" index="0"]
 offset_left = 248.0
 offset_top = 117.0
 offset_right = 845.0
 offset_bottom = 1953.0
 dialog_timeline = "NoirKüche"
 
-[node name="Lady" parent="Puppenspieler" index="1"]
+[node name="Lady" parent="DialogManager/Puppenspieler" index="1"]
 visible = false
 
-[node name="Sohn" parent="Puppenspieler" index="2"]
+[node name="Sohn" parent="DialogManager/Puppenspieler" index="2"]
 visible = false
 
-[node name="Magd" parent="Puppenspieler" index="3"]
+[node name="Magd" parent="DialogManager/Puppenspieler" index="3"]
 offset_left = 811.0
 offset_top = 159.0
 offset_right = 1656.0
 offset_bottom = 2093.0
 dialog_timeline = "MagdKüche"
 
-[node name="Koch" parent="Puppenspieler" index="4"]
+[node name="Koch" parent="DialogManager/Puppenspieler" index="4"]
 offset_left = 581.0
 offset_top = 90.0
 offset_right = 1137.0
 offset_bottom = 2017.0
 dialog_timeline = "KochKüche"
 
-[node name="Polizei" parent="Puppenspieler" index="5"]
+[node name="Polizei" parent="DialogManager/Puppenspieler" index="5"]
 visible = false
 
-[editable path="Puppenspieler"]
+[editable path="DialogManager"]
+[editable path="DialogManager/Puppenspieler"]

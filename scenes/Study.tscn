@@ -1,21 +1,19 @@
-[gd_scene load_steps=4 format=3 uid="uid://t2s6sc6d1y5e"]
+[gd_scene load_steps=3 format=3 uid="uid://t2s6sc6d1y5e"]
 
-[ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_4o7dq"]
+[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/dialog_manager.tscn" id="2_5og8f"]
 [ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="2_a6x8u"]
-[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/Puppenspieler.tscn" id="3_4ue6f"]
 
 [node name="Study" type="Node2D"]
-script = ExtResource("1_4o7dq")
-default_timeline = "IntroStudy"
 
 [node name="Study" type="Sprite2D" parent="."]
 position = Vector2(574, 337)
 scale = Vector2(0.73, 0.73)
 texture = ExtResource("2_a6x8u")
 
-[node name="Puppenspieler" parent="." instance=ExtResource("3_4ue6f")]
+[node name="DialogManager" parent="." instance=ExtResource("2_5og8f")]
+default_timeline = "IntroStudy"
 
-[node name="Noir" parent="Puppenspieler" index="0"]
+[node name="Noir" parent="DialogManager/Puppenspieler" index="0"]
 offset_left = 337.0
 offset_top = 156.0
 offset_right = 934.0
@@ -23,7 +21,7 @@ offset_bottom = 1992.0
 flip_h = true
 dialog_timeline = "NoirStudy"
 
-[node name="Lady" parent="Puppenspieler" index="1"]
+[node name="Lady" parent="DialogManager/Puppenspieler" index="1"]
 visible = false
 offset_left = 545.0
 offset_top = 199.0
@@ -32,16 +30,17 @@ offset_bottom = 2222.0
 flip_h = true
 dialog_timeline = "LadyStudy"
 
-[node name="Sohn" parent="Puppenspieler" index="2"]
+[node name="Sohn" parent="DialogManager/Puppenspieler" index="2"]
 visible = false
 
-[node name="Magd" parent="Puppenspieler" index="3"]
+[node name="Magd" parent="DialogManager/Puppenspieler" index="3"]
 visible = false
 
-[node name="Koch" parent="Puppenspieler" index="4"]
+[node name="Koch" parent="DialogManager/Puppenspieler" index="4"]
 visible = false
 
-[node name="Polizei" parent="Puppenspieler" index="5"]
+[node name="Polizei" parent="DialogManager/Puppenspieler" index="5"]
 visible = false
 
-[editable path="Puppenspieler"]
+[editable path="DialogManager"]
+[editable path="DialogManager/Puppenspieler"]

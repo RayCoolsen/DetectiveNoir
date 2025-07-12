@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkr7hiwpiyd6x"]
+
+[ext_resource type="Script" path="res://scripts/DialogManager.gd" id="1_0x0rc"]
+[ext_resource type="PackedScene" uid="uid://c56foj042l83t" path="res://scenes/Puppenspieler.tscn" id="2_a7lwa"]
+
+[node name="DialogManager" type="Node2D"]
+script = ExtResource("1_0x0rc")
+
+[node name="Puppenspieler" parent="." instance=ExtResource("2_a7lwa")]
