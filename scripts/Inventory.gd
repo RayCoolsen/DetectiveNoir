@@ -10,3 +10,6 @@ func remove_item(item: Item) -> void:
 
 func get_items() -> Array[Item]:
 	return _content
+
+func has_item(item: Item) -> bool:
+	return _content.has(item)
