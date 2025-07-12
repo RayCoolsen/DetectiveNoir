@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://c7man7ferekjn" path="res://sprites/Kueche.jpeg" id="1_tsheo"]
 [ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/systems/dialog_manager.tscn" id="2_11f05"]
 [ext_resource type="PackedScene" uid="uid://da171p32k3xet" path="res://scenes/systems/inventar_manager.tscn" id="3_todyr"]
-[ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/systems/buttonspieler.tscn" id="4_rxo6n"]
+[ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/systems/navigationspieler.tscn" id="4_rxo6n"]
 
 [node name="Küche" type="Node2D"]
 
