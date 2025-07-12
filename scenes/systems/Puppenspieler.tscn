@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://c56foj042l83t"]
 
-[ext_resource type="Script" path="res://scripts/Puppenspieler.gd" id="1_pxd76"]
+[ext_resource type="Script" path="res://scripts/puppenspieler.gd" id="1_pxd76"]
 [ext_resource type="Texture2D" uid="uid://o7wssmg5rtyf" path="res://sprites/Noir.png" id="2_aj4ui"]
 [ext_resource type="Script" path="res://scripts/CharacterButton.gd" id="3_hlok3"]
 [ext_resource type="Texture2D" uid="uid://co3ia0pryunvn" path="res://sprites/Lady.png" id="4_if5av"]
