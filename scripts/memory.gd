@@ -14,6 +14,8 @@ var character_dict = {
 
 var ActLoc : LOCATION
 
+var inventory: Inventory = Inventory.new()
+
 func change_active_location(location: LOCATION) -> void:
 	ActLoc = location
 	set_character_location(CHARACTER.NOIR, location)

@@ -8,4 +8,4 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event.is_action_released("inventory"):
 		if Dialogic.current_timeline != null:
 			return
-		inventory_dialog.open(game.inventory)
+		inventory_dialog.open(Memory.inventory)

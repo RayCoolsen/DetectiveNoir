@@ -6,8 +6,6 @@ extends Node2D
 var current_szene
 var szene_dict = {}
 
-var inventory: Inventory = Inventory.new()
-
 func _ready() -> void:
 	buttonspieler.room_change_requested.connect(szenewechsel)
 	inventar_spieler.item_pickup_requested.connect(on_item_pickup_requested)
@@ -21,7 +19,7 @@ func _load_scenes() -> void:
 	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/Bedroom.tscn").instantiate()
 
 func on_item_pickup_requested(item:Item):
-	inventory.add_item(item)
+	Memory.inventory.add_item(item)
 
 func szenewechsel(szene : Memory.LOCATION) -> void:
 	if current_szene != null:
