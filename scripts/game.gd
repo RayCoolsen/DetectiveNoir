@@ -20,7 +20,7 @@ func _load_scenes() -> void:
 
 func change_stage(target_location: Memory.LOCATION) -> void:
 	# 1. Signale der alten Stage trennen
-	stage_manager.disconnect_current_buttons()
+	stage_manager.disconnect_navigation()
 	
 	# 2. Alte Stage entfernen
 	if current_stage:
@@ -36,4 +36,4 @@ func change_stage(target_location: Memory.LOCATION) -> void:
 	add_child(current_stage)
 	
 	# 4. Signale der neuen Stage verbinden
-	stage_manager.connect_stage_buttons(current_stage)
+	stage_manager.connect_navigation(current_stage)

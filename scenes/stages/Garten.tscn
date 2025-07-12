@@ -42,7 +42,7 @@ visible = false
 
 [node name="InventarManager" parent="." instance=ExtResource("3_pextu")]
 
-[node name="Buttonspieler" parent="." instance=ExtResource("4_s3sth")]
+[node name="Navigationspieler" parent="." instance=ExtResource("4_s3sth")]
 
 [editable path="DialogManager"]
 [editable path="DialogManager/Puppenspieler"]

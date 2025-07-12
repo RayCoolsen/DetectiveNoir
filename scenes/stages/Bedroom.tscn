@@ -45,7 +45,7 @@ offset_bottom = 2112.0
 
 [node name="InventarManager" parent="." instance=ExtResource("3_h4dgx")]
 
-[node name="Buttonspieler" parent="." instance=ExtResource("4_jad4q")]
+[node name="Navigationspieler" parent="." instance=ExtResource("4_jad4q")]
 
 [editable path="DialogManager"]
 [editable path="DialogManager/Puppenspieler"]

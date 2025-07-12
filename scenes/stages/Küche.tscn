@@ -47,7 +47,7 @@ visible = false
 
 [node name="InventarManager" parent="." instance=ExtResource("3_todyr")]
 
-[node name="Buttonspieler" parent="." instance=ExtResource("4_rxo6n")]
+[node name="Navigationspieler" parent="." instance=ExtResource("4_rxo6n")]
 
 [editable path="DialogManager"]
 [editable path="DialogManager/Puppenspieler"]

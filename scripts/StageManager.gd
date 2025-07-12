@@ -4,16 +4,16 @@ signal stage_change_requested(target_location: Memory.LOCATION)
 
 var current_navigationspieler: Node = null
 
-func disconnect_current_buttons() -> void:
+func disconnect_navigation() -> void:
 	if current_navigationspieler and current_navigationspieler.is_connected("stage_change_requested", _on_stage_change_requested):
 		current_navigationspieler.stage_change_requested.disconnect(_on_stage_change_requested)
 	current_navigationspieler = null
 
-func connect_stage_buttons(stage: Node2D) -> void:
-	# Finde neuen Buttonspieler
-	current_navigationspieler = stage.find_child("Buttonspieler")
+func connect_navigation(stage: Node2D) -> void:
+	# Finde neuen Navigationspieler
+	current_navigationspieler = stage.find_child("Navigationspieler")
 	if not current_navigationspieler:
-		push_error("Buttonspieler not found in stage: " + stage.name)
+		push_error("Navigationspieler not found in stage: " + stage.name)
 		return
 	
 	# Verbinde neue Signale
