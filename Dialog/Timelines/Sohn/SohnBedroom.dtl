@@ -1,6 +1,6 @@
 [signal arg="hide"]
-join Noir left
-join Sohn right
+join Noir left [animation="Slide In Left" length="0.8" mirrored="true"]
+join Sohn right [animation="Slide In Right" length="0.8"]
 Noir: Good day, sir
 Sohn: Hi (oder so, bin wegen dialog noch nicht sicher lol)
 Noir: Could I just ask you a few questions?
