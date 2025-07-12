@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://10bwtuag5xfg"]
+[gd_scene load_steps=5 format=3 uid="uid://10bwtuag5xfg"]
 
 [ext_resource type="Texture2D" uid="uid://broraj72pkshs" path="res://sprites/Bedroom.jpeg" id="1_wqndc"]
 [ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/systems/dialog_manager.tscn" id="2_qe3ei"]
 [ext_resource type="PackedScene" uid="uid://da171p32k3xet" path="res://scenes/systems/inventar_manager.tscn" id="3_h4dgx"]
+[ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/systems/buttonspieler.tscn" id="4_jad4q"]
 
 [node name="Bedroom" type="Node2D"]
 
@@ -43,6 +44,8 @@ offset_right = 1766.0
 offset_bottom = 2112.0
 
 [node name="InventarManager" parent="." instance=ExtResource("3_h4dgx")]
+
+[node name="Buttonspieler" parent="." instance=ExtResource("4_jad4q")]
 
 [editable path="DialogManager"]
 [editable path="DialogManager/Puppenspieler"]

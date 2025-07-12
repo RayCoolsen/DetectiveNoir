@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://con5pt8771i6o"]
+[gd_scene load_steps=5 format=3 uid="uid://con5pt8771i6o"]
 
 [ext_resource type="Texture2D" uid="uid://cq4gxmnt455hi" path="res://sprites/Garten.jpeg" id="1_gin64"]
 [ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/systems/dialog_manager.tscn" id="2_cbubv"]
 [ext_resource type="PackedScene" uid="uid://da171p32k3xet" path="res://scenes/systems/inventar_manager.tscn" id="3_pextu"]
+[ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/systems/buttonspieler.tscn" id="4_s3sth"]
 
 [node name="Garten" type="Node2D"]
 
@@ -40,6 +41,8 @@ visible = false
 visible = false
 
 [node name="InventarManager" parent="." instance=ExtResource("3_pextu")]
+
+[node name="Buttonspieler" parent="." instance=ExtResource("4_s3sth")]
 
 [editable path="DialogManager"]
 [editable path="DialogManager/Puppenspieler"]

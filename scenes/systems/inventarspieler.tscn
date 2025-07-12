@@ -5,10 +5,10 @@
 [ext_resource type="Resource" uid="uid://dfd6jyd8e4f2d" path="res://Items/Lupe.tres" id="4_ipwwr"]
 
 [node name="InventarPlayer" type="Node2D"]
+z_index = 1
 script = ExtResource("1_d4r0u")
 
 [node name="Lupe" type="TextureButton" parent="."]
-z_index = 1
 offset_right = 845.0
 offset_bottom = 1934.0
 scale = Vector2(0.5, 0.5)
