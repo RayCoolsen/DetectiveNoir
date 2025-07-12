@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://da171p32k3xet"]
+
+[ext_resource type="Script" path="res://scripts/InventarManager.gd" id="1_tvoxn"]
+[ext_resource type="PackedScene" uid="uid://bukys3elbekqd" path="res://scenes/systems/inventarspieler.tscn" id="1_ubir1"]
+
+[node name="InventarManager" type="Node2D"]
+script = ExtResource("1_tvoxn")
+
+[node name="Inventarspieler" parent="." instance=ExtResource("1_ubir1")]

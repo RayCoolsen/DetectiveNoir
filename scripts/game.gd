@@ -1,14 +1,12 @@
 extends Node2D
 
 @onready var buttonspieler: Node2D = $Buttonspieler
-@onready var inventar_spieler: Node2D = $Inventarspieler
 
 var current_szene
 var szene_dict = {}
 
 func _ready() -> void:
 	buttonspieler.room_change_requested.connect(szenewechsel)
-	inventar_spieler.item_pickup_requested.connect(on_item_pickup_requested)
 	_load_scenes()
 	szenewechsel(Memory.LOCATION.STUDY)
 
@@ -17,9 +15,6 @@ func _load_scenes() -> void:
 	szene_dict[Memory.LOCATION.GARTEN]  = preload("res://scenes/stages/Garten.tscn").instantiate()
 	szene_dict[Memory.LOCATION.STUDY]  = preload("res://scenes/stages/Study.tscn").instantiate()
 	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/stages/Bedroom.tscn").instantiate()
-
-func on_item_pickup_requested(item:Item):
-	Memory.inventory.add_item(item)
 
 func szenewechsel(szene : Memory.LOCATION) -> void:
 	if current_szene != null:
