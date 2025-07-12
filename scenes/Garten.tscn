@@ -9,7 +9,6 @@ script = ExtResource("1_rnecq")
 default_timeline = "IntroGarten"
 
 [node name="Garten" type="Sprite2D" parent="."]
-z_index = -1
 position = Vector2(585, 328)
 texture = ExtResource("2_0wm1h")
 

@@ -13,6 +13,7 @@
 script = ExtResource("1_cfcax")
 
 [node name="Noir" type="TextureButton" parent="."]
+z_index = 2
 offset_right = 597.0
 offset_bottom = 1836.0
 scale = Vector2(0.25, 0.25)
@@ -20,6 +21,7 @@ texture_normal = ExtResource("1_tqyjf")
 script = ExtResource("8_ykchk")
 
 [node name="Lady" type="TextureButton" parent="."]
+z_index = 2
 offset_right = 883.0
 offset_bottom = 2023.0
 scale = Vector2(0.2, 0.2)
@@ -28,6 +30,7 @@ script = ExtResource("8_ykchk")
 character = 1
 
 [node name="Sohn" type="TextureButton" parent="."]
+z_index = 2
 offset_right = 549.0
 offset_bottom = 2034.0
 scale = Vector2(0.23, 0.23)
@@ -36,6 +39,7 @@ script = ExtResource("8_ykchk")
 character = 4
 
 [node name="Magd" type="TextureButton" parent="."]
+z_index = 2
 offset_right = 845.0
 offset_bottom = 1934.0
 scale = Vector2(0.225, 0.225)
@@ -44,6 +48,7 @@ script = ExtResource("8_ykchk")
 character = 5
 
 [node name="Koch" type="TextureButton" parent="."]
+z_index = 2
 offset_right = 40.0
 offset_bottom = 40.0
 scale = Vector2(0.26, 0.26)
@@ -52,6 +57,7 @@ script = ExtResource("8_ykchk")
 character = 2
 
 [node name="Polizei" type="TextureButton" parent="."]
+z_index = 2
 offset_right = 40.0
 offset_bottom = 40.0
 scale = Vector2(0.27, 0.27)

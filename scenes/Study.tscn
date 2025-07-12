@@ -9,7 +9,6 @@ script = ExtResource("1_4o7dq")
 default_timeline = "IntroStudy"
 
 [node name="Study" type="Sprite2D" parent="."]
-z_index = -1
 position = Vector2(574, 337)
 scale = Vector2(0.73, 0.73)
 texture = ExtResource("2_a6x8u")
