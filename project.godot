@@ -27,6 +27,7 @@ directories/dch_directory={
 "Magd": "res://Dialog/Characters/Magd.dch",
 "Noir": "res://Dialog/Characters/Noir.dch",
 "Polizei": "res://Dialog/Characters/Polizei.dch",
+"Rivale": "res://Dialog/Characters/Rivale.dch",
 "Sohn": "res://Dialog/Characters/Sohn.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
@@ -41,6 +42,7 @@ directories/dtl_directory={
 "NoirGarten": "res://Dialog/Timelines/Noir/NoirGarten.dtl",
 "NoirKüche": "res://Dialog/Timelines/Noir/NoirKüche.dtl",
 "NoirStudy": "res://Dialog/Timelines/Noir/NoirStudy.dtl",
+"RivaleGarten": "res://sprites/RivaleGarten.dtl",
 "SohnBedroom": "res://Dialog/Timelines/Sohn/SohnBedroom.dtl"
 }
 glossary/default_case_sensitive=true

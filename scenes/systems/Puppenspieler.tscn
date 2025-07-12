@@ -1,13 +1,14 @@
-[gd_scene load_steps=9 format=3 uid="uid://c56foj042l83t"]
+[gd_scene load_steps=10 format=3 uid="uid://c56foj042l83t"]
 
 [ext_resource type="Script" path="res://scripts/puppenspieler.gd" id="1_pxd76"]
 [ext_resource type="Texture2D" uid="uid://o7wssmg5rtyf" path="res://sprites/Noir.png" id="2_aj4ui"]
 [ext_resource type="Script" path="res://scripts/CharacterButton.gd" id="3_hlok3"]
 [ext_resource type="Texture2D" uid="uid://co3ia0pryunvn" path="res://sprites/Lady.png" id="4_if5av"]
 [ext_resource type="Texture2D" uid="uid://dj6jxitdank6f" path="res://sprites/Sohn.png" id="5_63uxs"]
-[ext_resource type="Texture2D" uid="uid://dqarujy0lxkt3" path="res://sprites/Magd.png" id="6_21dwj"]
+[ext_resource type="Texture2D" uid="uid://dqarujy0lxkt3" path="res://sprites/magd.png" id="6_21dwj"]
 [ext_resource type="Texture2D" uid="uid://8svarx7yk3j1" path="res://sprites/Koch.png" id="7_y8p2l"]
 [ext_resource type="Texture2D" uid="uid://cioeul8ya0nxc" path="res://sprites/Polizei.png" id="8_yxac2"]
+[ext_resource type="Texture2D" uid="uid://crnv4ybxqb0cs" path="res://sprites/Rivale.png" id="9_fk6cn"]
 
 [node name="Puppenspieler" type="Node2D"]
 z_index = 2
@@ -60,9 +61,19 @@ texture_normal = ExtResource("8_yxac2")
 script = ExtResource("3_hlok3")
 character = 3
 
+[node name="Rivale" type="TextureButton" parent="."]
+offset_right = 1319.0
+offset_bottom = 1296.0
+scale = Vector2(0.4, 0.4)
+texture_normal = ExtResource("9_fk6cn")
+flip_v = true
+script = ExtResource("3_hlok3")
+character = 6
+
 [connection signal="pressed" from="Noir" to="Noir" method="_on_pressed"]
 [connection signal="pressed" from="Lady" to="Lady" method="_on_pressed"]
 [connection signal="pressed" from="Sohn" to="Sohn" method="_on_pressed"]
 [connection signal="pressed" from="Magd" to="Magd" method="_on_pressed"]
 [connection signal="pressed" from="Koch" to="Koch" method="_on_pressed"]
 [connection signal="pressed" from="Polizei" to="Polizei" method="_on_pressed"]
+[connection signal="pressed" from="Rivale" to="Rivale" method="_on_pressed"]

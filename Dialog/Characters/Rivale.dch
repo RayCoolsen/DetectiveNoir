@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 "_translation_id": "",
-"color": Color(0.136261, 0.13993, 0.371094, 1),
+"color": Color(0.351562, 0.263345, 0.177841, 1),
 "custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -12,14 +12,14 @@
 },
 "default_portrait": "Default",
 "description": "",
-"display_name": "Noir",
+"display_name": "Rivale",
 "mirror": false,
-"nicknames": ["Detective Noir", "Noir", "Mr. Noir", "Detective"],
+"nicknames": [""],
 "offset": Vector2(0, 0),
 "portraits": {
 "Default": {
 "export_overrides": {
-"image": "\"res://sprites/Noir.png\""
+"image": "\"res://sprites/Rivale.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
