@@ -31,16 +31,16 @@ directories/dch_directory={
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
-"IntroGarten": "res://Dialog/Timelines/IntroGarten.dtl",
-"IntroKüche": "res://Dialog/Timelines/IntroKüche.dtl",
-"IntroStudy": "res://Dialog/Timelines/IntroStudy.dtl",
-"KochKüche": "res://Dialog/Timelines/KochKüche.dtl",
-"LadyGarten": "res://Dialog/Timelines/LadyGarten.dtl",
-"LadyStudy": "res://Dialog/Timelines/LadyStudy.dtl",
-"MagdKüche": "res://Dialog/Timelines/MagdKüche.dtl",
-"NoirGarten": "res://Dialog/Timelines/NoirGarten.dtl",
-"NoirKüche": "res://Dialog/Timelines/NoirKüche.dtl",
-"NoirStudy": "res://Dialog/Timelines/NoirStudy.dtl"
+"IntroGarten": "res://Dialog/Timelines/Intros/IntroGarten.dtl",
+"IntroKüche": "res://Dialog/Timelines/Intros/IntroKüche.dtl",
+"IntroStudy": "res://Dialog/Timelines/Intros/IntroStudy.dtl",
+"KochKüche": "res://Dialog/Timelines/Koch/KochKüche.dtl",
+"LadyGarten": "res://Dialog/Timelines/Lady/LadyGarten.dtl",
+"LadyStudy": "res://Dialog/Timelines/Lady/LadyStudy.dtl",
+"MagdKüche": "res://Dialog/Timelines/Magd/MagdKüche.dtl",
+"NoirGarten": "res://Dialog/Timelines/Noir/NoirGarten.dtl",
+"NoirKüche": "res://Dialog/Timelines/Noir/NoirKüche.dtl",
+"NoirStudy": "res://Dialog/Timelines/Noir/NoirStudy.dtl"
 }
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
