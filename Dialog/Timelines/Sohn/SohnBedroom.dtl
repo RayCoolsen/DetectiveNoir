@@ -1,5 +1,31 @@
 [signal arg="hide"]
+join Noir left
 join Sohn right
-Sohn: YAPPA YAPPA
-Sohn: Blah blah
+Noir: Good day, sir
+Sohn: Hi (oder so, bin wegen dialog noch nicht sicher lol)
+Noir: Could I just ask you a few questions?
+- Ask about the Lord
+	Sohn: *Über den Lord
+- Ask about the other people
+	- Ask about the Maid
+		Sohn: *Über Magd*
+		Sohn: I dont really trust her ...
+	- Ask about the Cook
+		Sohn: *Text über den Koch*
+	- Ask about the Lady
+		Sohn: *über lady*
+		Sohn: She Married my Father not that long ago.
+		Sohn: I dont really trust her
+		Sohn: ...
+		Sohn: sometimes, I think she just liked him for the money.
+	- Ask about the Detective
+		Sohn: You are the most well-known detctive in all of Catington.
+		Sohn: And, hopefully, the best one too.
+		Sohn: I am very exited to help you with your case.
+- Ask about something else
+	- Ask about Clue 1
+	- Ask about Clue 2
+- Dont ask anything.
+	Noir: I have some other matters to attend to, but I'll be right back with you.
+Noir: Thank you for your time.
 [signal]
