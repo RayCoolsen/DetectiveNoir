@@ -1,32 +1,32 @@
 [gd_scene load_steps=9 format=3 uid="uid://c56foj042l83t"]
 
-[ext_resource type="Script" path="res://scripts/Puppenspieler.gd" id="1_cfcax"]
-[ext_resource type="Texture2D" uid="uid://o7wssmg5rtyf" path="res://sprites/Noir.png" id="1_tqyjf"]
-[ext_resource type="Texture2D" uid="uid://co3ia0pryunvn" path="res://sprites/Lady.png" id="2_2353v"]
-[ext_resource type="Texture2D" uid="uid://8svarx7yk3j1" path="res://sprites/Koch.png" id="4_214xl"]
-[ext_resource type="Texture2D" uid="uid://dqarujy0lxkt3" path="res://sprites/Magd.png" id="5_cxq2y"]
-[ext_resource type="Texture2D" uid="uid://dj6jxitdank6f" path="res://sprites/Sohn.png" id="6_d04n8"]
-[ext_resource type="Texture2D" uid="uid://cioeul8ya0nxc" path="res://sprites/Polizei.png" id="8_3sotw"]
-[ext_resource type="Script" path="res://scripts/CharacterButton.gd" id="8_ykchk"]
+[ext_resource type="Script" path="res://scripts/Puppenspieler.gd" id="1_aj1yd"]
+[ext_resource type="Texture2D" uid="uid://o7wssmg5rtyf" path="res://sprites/Noir.png" id="2_sf0i4"]
+[ext_resource type="Script" path="res://scripts/CharacterButton.gd" id="3_t7642"]
+[ext_resource type="Texture2D" uid="uid://co3ia0pryunvn" path="res://sprites/Lady.png" id="4_eossa"]
+[ext_resource type="Texture2D" uid="uid://dj6jxitdank6f" path="res://sprites/Sohn.png" id="5_siqwv"]
+[ext_resource type="Texture2D" uid="uid://dqarujy0lxkt3" path="res://sprites/Magd.png" id="6_6qoj2"]
+[ext_resource type="Texture2D" uid="uid://8svarx7yk3j1" path="res://sprites/Koch.png" id="7_rdvyo"]
+[ext_resource type="Texture2D" uid="uid://cioeul8ya0nxc" path="res://sprites/Polizei.png" id="8_teoma"]
 
 [node name="Puppenspieler" type="Node2D"]
-script = ExtResource("1_cfcax")
+script = ExtResource("1_aj1yd")
 
 [node name="Noir" type="TextureButton" parent="."]
 z_index = 2
 offset_right = 597.0
 offset_bottom = 1836.0
 scale = Vector2(0.25, 0.25)
-texture_normal = ExtResource("1_tqyjf")
-script = ExtResource("8_ykchk")
+texture_normal = ExtResource("2_sf0i4")
+script = ExtResource("3_t7642")
 
 [node name="Lady" type="TextureButton" parent="."]
 z_index = 2
 offset_right = 883.0
 offset_bottom = 2023.0
 scale = Vector2(0.2, 0.2)
-texture_normal = ExtResource("2_2353v")
-script = ExtResource("8_ykchk")
+texture_normal = ExtResource("4_eossa")
+script = ExtResource("3_t7642")
 character = 1
 
 [node name="Sohn" type="TextureButton" parent="."]
@@ -34,8 +34,8 @@ z_index = 2
 offset_right = 549.0
 offset_bottom = 2034.0
 scale = Vector2(0.23, 0.23)
-texture_normal = ExtResource("6_d04n8")
-script = ExtResource("8_ykchk")
+texture_normal = ExtResource("5_siqwv")
+script = ExtResource("3_t7642")
 character = 4
 
 [node name="Magd" type="TextureButton" parent="."]
@@ -43,8 +43,8 @@ z_index = 2
 offset_right = 845.0
 offset_bottom = 1934.0
 scale = Vector2(0.225, 0.225)
-texture_normal = ExtResource("5_cxq2y")
-script = ExtResource("8_ykchk")
+texture_normal = ExtResource("6_6qoj2")
+script = ExtResource("3_t7642")
 character = 5
 
 [node name="Koch" type="TextureButton" parent="."]
@@ -52,8 +52,8 @@ z_index = 2
 offset_right = 40.0
 offset_bottom = 40.0
 scale = Vector2(0.26, 0.26)
-texture_normal = ExtResource("4_214xl")
-script = ExtResource("8_ykchk")
+texture_normal = ExtResource("7_rdvyo")
+script = ExtResource("3_t7642")
 character = 2
 
 [node name="Polizei" type="TextureButton" parent="."]
@@ -61,8 +61,8 @@ z_index = 2
 offset_right = 40.0
 offset_bottom = 40.0
 scale = Vector2(0.27, 0.27)
-texture_normal = ExtResource("8_3sotw")
-script = ExtResource("8_ykchk")
+texture_normal = ExtResource("8_teoma")
+script = ExtResource("3_t7642")
 character = 3
 
 [connection signal="pressed" from="Noir" to="Noir" method="_on_pressed"]

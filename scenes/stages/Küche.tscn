@@ -1,16 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://c7n6mxsiu1p5x"]
 
-[ext_resource type="Texture2D" uid="uid://c7man7ferekjn" path="res://sprites/Kueche.jpeg" id="2_rngw8"]
-[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/dialog_manager.tscn" id="2_tgvej"]
+[ext_resource type="Texture2D" uid="uid://c7man7ferekjn" path="res://sprites/Kueche.jpeg" id="1_tsheo"]
+[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/systems/dialog_manager.tscn" id="2_11f05"]
 
 [node name="Küche" type="Node2D"]
 
 [node name="Kueche" type="Sprite2D" parent="."]
 position = Vector2(578, 326)
 scale = Vector2(1.175, 1.175)
-texture = ExtResource("2_rngw8")
+texture = ExtResource("1_tsheo")
 
-[node name="DialogManager" parent="." instance=ExtResource("2_tgvej")]
+[node name="DialogManager" parent="." instance=ExtResource("2_11f05")]
 default_timeline = "IntroKüche"
 
 [node name="Noir" parent="DialogManager/Puppenspieler" index="0"]

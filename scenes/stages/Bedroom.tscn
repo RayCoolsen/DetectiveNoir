@@ -1,16 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://10bwtuag5xfg"]
 
-[ext_resource type="Texture2D" uid="uid://broraj72pkshs" path="res://sprites/Bedroom.jpeg" id="1_taf5e"]
-[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/dialog_manager.tscn" id="4_7b5gj"]
+[ext_resource type="Texture2D" uid="uid://broraj72pkshs" path="res://sprites/Bedroom.jpeg" id="1_wqndc"]
+[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/systems/dialog_manager.tscn" id="2_qe3ei"]
 
 [node name="Bedroom" type="Node2D"]
 
 [node name="Bedroom" type="Sprite2D" parent="."]
 position = Vector2(577, 323)
 scale = Vector2(1.3, 1.3)
-texture = ExtResource("1_taf5e")
+texture = ExtResource("1_wqndc")
 
-[node name="DialogManager" parent="." instance=ExtResource("4_7b5gj")]
+[node name="DialogManager" parent="." instance=ExtResource("2_qe3ei")]
 
 [node name="Noir" parent="DialogManager/Puppenspieler" index="0"]
 offset_left = 106.0

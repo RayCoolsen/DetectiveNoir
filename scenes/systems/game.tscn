@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://b1dw4wogylpn7"]
 
 [ext_resource type="Script" path="res://scripts/game.gd" id="1_y3vmq"]
-[ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/buttonspieler.tscn" id="3_fggci"]
-[ext_resource type="PackedScene" uid="uid://bukys3elbekqd" path="res://scenes/inventarspieler.tscn" id="3_qswfo"]
-[ext_resource type="PackedScene" uid="uid://nrdwb3wrbqao" path="res://scenes/inventory_dialog.tscn" id="4_uqb4u"]
+[ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/systems/buttonspieler.tscn" id="3_fggci"]
+[ext_resource type="PackedScene" uid="uid://bukys3elbekqd" path="res://scenes/systems/inventarspieler.tscn" id="3_qswfo"]
+[ext_resource type="PackedScene" uid="uid://nrdwb3wrbqao" path="res://scenes/systems/inventory_dialog.tscn" id="4_uqb4u"]
 [ext_resource type="Script" path="res://scripts/ui_root.gd" id="4_uxc8n"]
 
 [node name="Game" type="Node2D"]

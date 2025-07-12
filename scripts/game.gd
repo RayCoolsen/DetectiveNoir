@@ -13,10 +13,10 @@ func _ready() -> void:
 	szenewechsel(Memory.LOCATION.STUDY)
 
 func _load_scenes() -> void:
-	szene_dict[Memory.LOCATION.KUECHE]  = preload("res://scenes/Küche.tscn").instantiate()
-	szene_dict[Memory.LOCATION.GARTEN]  = preload("res://scenes/Garten.tscn").instantiate()
-	szene_dict[Memory.LOCATION.STUDY]  = preload("res://scenes/Study.tscn").instantiate()
-	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/Bedroom.tscn").instantiate()
+	szene_dict[Memory.LOCATION.KUECHE]  = preload("res://scenes/stages/Küche.tscn").instantiate()
+	szene_dict[Memory.LOCATION.GARTEN]  = preload("res://scenes/stages/Garten.tscn").instantiate()
+	szene_dict[Memory.LOCATION.STUDY]  = preload("res://scenes/stages/Study.tscn").instantiate()
+	szene_dict[Memory.LOCATION.BEDROOM]  = preload("res://scenes/stages/Bedroom.tscn").instantiate()
 
 func on_item_pickup_requested(item:Item):
 	Memory.inventory.add_item(item)

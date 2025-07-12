@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://nrdwb3wrbqao"]
 
 [ext_resource type="Script" path="res://scripts/inventory_dialog.gd" id="1_f0je8"]
-[ext_resource type="PackedScene" uid="uid://dgcqv2m6mki1w" path="res://scenes/item_slot.tscn" id="2_hg1op"]
+[ext_resource type="PackedScene" uid="uid://dgcqv2m6mki1w" path="res://scenes/systems/item_slot.tscn" id="2_hg1op"]
 
 [node name="InventoryDialog" type="PanelContainer"]
 anchors_preset = 15

@@ -1,9 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://dgcqv2m6mki1w"]
 
-[ext_resource type="Script" path="res://scripts/item_slot.gd" id="1_1074p"]
+[ext_resource type="Script" path="res://scripts/item_slot.gd" id="1_qml2l"]
 
 [node name="ItemSlot" type="PanelContainer"]
-script = ExtResource("1_1074p")
+script = ExtResource("1_qml2l")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 unique_name_in_owner = true

@@ -1,16 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://t2s6sc6d1y5e"]
 
-[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/dialog_manager.tscn" id="2_5og8f"]
-[ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="2_a6x8u"]
+[ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="1_why8q"]
+[ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/systems/dialog_manager.tscn" id="2_8vih0"]
 
 [node name="Study" type="Node2D"]
 
 [node name="Study" type="Sprite2D" parent="."]
 position = Vector2(574, 337)
 scale = Vector2(0.73, 0.73)
-texture = ExtResource("2_a6x8u")
+texture = ExtResource("1_why8q")
 
-[node name="DialogManager" parent="." instance=ExtResource("2_5og8f")]
+[node name="DialogManager" parent="." instance=ExtResource("2_8vih0")]
 default_timeline = "IntroStudy"
 
 [node name="Noir" parent="DialogManager/Puppenspieler" index="0"]
