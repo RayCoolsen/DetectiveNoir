@@ -48,15 +48,9 @@ offset_bottom = 1431.0
 flip_h = true
 dialog_timeline = "RivaleGarten"
 
-[node name="InventarManager" parent="." instance=ExtResource("3_pextu")]
-
-[node name="Lupe" parent="InventarManager/Inventarspieler" index="0"]
-offset_left = 1186.0
-offset_top = 107.0
-offset_right = 2031.0
-offset_bottom = 2041.0
-
 [node name="Navigationspieler" parent="." instance=ExtResource("4_s3sth")]
+
+[node name="InventarManager" parent="." instance=ExtResource("3_pextu")]
 
 [editable path="DialogManager"]
 [editable path="DialogManager/Puppenspieler"]

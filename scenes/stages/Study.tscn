@@ -44,6 +44,9 @@ visible = false
 [node name="Polizei" parent="DialogManager/Puppenspieler" index="5"]
 visible = false
 
+[node name="Rivale" parent="DialogManager/Puppenspieler" index="6"]
+visible = false
+
 [node name="InventarManager" parent="." instance=ExtResource("3_20fow")]
 
 [node name="Navigationspieler" parent="." instance=ExtResource("4_bck88")]

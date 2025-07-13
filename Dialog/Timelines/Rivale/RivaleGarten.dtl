@@ -1,0 +1,10 @@
+[signal arg="hide"]
+join Noir left [animation="Slide In Left" length="0.8"]
+join Rivale right [animation="Slide In Right" length="0.8" mirrored="true"]
+Noir: Hello, Good sir
+Noir: Could I ask you a few questions?
+Rivale: Yeah, sure
+Rivale: <Empty Text Event>
+leave Noir [animation="Zoom Out"]
+leave Rivale [animation="Zoom Out"]
+[signal]
