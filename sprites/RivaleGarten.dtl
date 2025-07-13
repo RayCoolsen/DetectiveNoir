@@ -1,0 +1,9 @@
+[signal arg="hide"]
+join Rivale right
+join Noir left
+Noir: Hello, Good sir
+Noir: Could I ask you a few questions?
+Rivale: Yeah, sure
+Rivale: <Empty Text Event>
+leave Rivale
+[signal]

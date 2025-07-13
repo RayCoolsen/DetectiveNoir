@@ -66,7 +66,6 @@ offset_right = 1319.0
 offset_bottom = 1296.0
 scale = Vector2(0.4, 0.4)
 texture_normal = ExtResource("9_fk6cn")
-flip_v = true
 script = ExtResource("3_hlok3")
 character = 6
 

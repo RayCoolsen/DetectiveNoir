@@ -15,9 +15,9 @@ texture = ExtResource("1_gin64")
 default_timeline = "IntroGarten"
 
 [node name="Noir" parent="DialogManager/Puppenspieler" index="0"]
-offset_left = 623.0
+offset_left = 577.0
 offset_top = 106.0
-offset_right = 1220.0
+offset_right = 1174.0
 offset_bottom = 1942.0
 dialog_timeline = "NoirGarten"
 
@@ -40,7 +40,21 @@ visible = false
 [node name="Polizei" parent="DialogManager/Puppenspieler" index="5"]
 visible = false
 
+[node name="Rivale" parent="DialogManager/Puppenspieler" index="6"]
+offset_left = 812.0
+offset_top = 135.0
+offset_right = 2131.0
+offset_bottom = 1431.0
+flip_h = true
+dialog_timeline = "RivaleGarten"
+
 [node name="InventarManager" parent="." instance=ExtResource("3_pextu")]
+
+[node name="Lupe" parent="InventarManager/Inventarspieler" index="0"]
+offset_left = 1186.0
+offset_top = 107.0
+offset_right = 2031.0
+offset_bottom = 2041.0
 
 [node name="Navigationspieler" parent="." instance=ExtResource("4_s3sth")]
 
