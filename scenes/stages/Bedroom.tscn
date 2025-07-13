@@ -43,6 +43,7 @@ offset_left = 897.0
 offset_top = 104.0
 offset_right = 1766.0
 offset_bottom = 2112.0
+dialog_timeline = "PolizeiBedroom"
 
 [node name="Rivale" parent="DialogManager/Puppenspieler" index="6"]
 visible = false

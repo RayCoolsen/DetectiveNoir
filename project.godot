@@ -43,6 +43,7 @@ directories/dtl_directory={
 "NoirGarten": "res://Dialog/Timelines/Noir/NoirGarten.dtl",
 "NoirKüche": "res://Dialog/Timelines/Noir/NoirKüche.dtl",
 "NoirStudy": "res://Dialog/Timelines/Noir/NoirStudy.dtl",
+"PolizeiBedroom": "res://Dialog/Timelines/Polizei/PolizeiBedroom.dtl",
 "RivaleGarten": "res://Dialog/Timelines/Rivale/RivaleGarten.dtl",
 "SohnBedroom": "res://Dialog/Timelines/Sohn/SohnBedroom.dtl"
 }

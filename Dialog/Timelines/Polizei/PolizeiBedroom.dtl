@@ -1,0 +1,31 @@
+[signal arg="hide"]
+join Noir left [animation="Slide In Left" length="0.8" mirrored="true"]
+join Polizei right [animation="Slide In Right" length="0.8"]
+Polizei: Mister Noir, Sir!
+Polizei: It is good to see you here, Sir.
+Polizei: I am relieved to know that I can rely on your direction in this case, Sir.
+Polizei: It is an honor to work with you again, Sir.
+Noir: Good morning, (Polizei Name ???)
+Noir: I am glad that the commissioner assigned this case to you.
+Noir: What have you been able to find out already?
+Polizei: What would you like to know, Sir?
+- Ask about the Lord
+	Polizei: *Über den Lord
+- Ask about the other people
+	- Ask about the Maid
+		Polizei: *Über Magd*
+	- Ask about the Cook
+		Polizei: *Text über den Koch*
+	- Ask about the Lady
+		Polizei: *über lady*
+	- Ask about the Detective
+		Polizei: *über Noir*
+- Ask about something else
+	- Ask about Clue 1
+	- Ask about Clue 2
+- Dont ask anything.
+	Noir: I have some other matters to attend to, but I'll be right back with you.
+Noir: Thank you for your time.
+leave Noir [animation="Zoom Out"]
+leave Polizei [animation="Zoom Out"]
+[signal]
