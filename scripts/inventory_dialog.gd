@@ -12,6 +12,8 @@ func open(inventory: Inventory) -> void:
 		child.queue_free()
 	
 	for item in inventory.get_items():
+		if item.icon == null: continue
+		
 		var slot = slot_scene.instantiate()
 		grid_container.add_child(slot)
 		slot.display(item)
