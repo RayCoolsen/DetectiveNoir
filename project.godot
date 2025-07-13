@@ -39,6 +39,7 @@ directories/dtl_directory={
 "KochKüche": "res://Dialog/Timelines/Koch/KochKüche.dtl",
 "LadyGarten": "res://Dialog/Timelines/Lady/LadyGarten.dtl",
 "LadyStudy": "res://Dialog/Timelines/Lady/LadyStudy.dtl",
+"LupePickUp": "res://Dialog/Timelines/Items/LupePickUp.dtl",
 "MagdKüche": "res://Dialog/Timelines/Magd/MagdKüche.dtl",
 "NoirBedroom": "res://Dialog/Timelines/Noir/NoirBedroom.dtl",
 "NoirGarten": "res://Dialog/Timelines/Noir/NoirGarten.dtl",

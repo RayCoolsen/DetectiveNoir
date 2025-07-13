@@ -9,3 +9,4 @@ script = ExtResource("2_3t83e")
 name = "Lupe"
 texture = ExtResource("3_rb022")
 icon = ExtResource("1_b47ki")
+pick_up_timeline = "LupePickUp"

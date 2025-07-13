@@ -8,4 +8,3 @@ func _ready() -> void:
 
 func on_item_pickup_requested(item: Item) -> void:
 	item_pickup_requested.emit(item)
-	print("Item pickup requested: " + item.name)
