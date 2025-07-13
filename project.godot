@@ -40,6 +40,7 @@ directories/dtl_directory={
 "LadyGarten": "res://Dialog/Timelines/Lady/LadyGarten.dtl",
 "LadyStudy": "res://Dialog/Timelines/Lady/LadyStudy.dtl",
 "MagdKüche": "res://Dialog/Timelines/Magd/MagdKüche.dtl",
+"NoirBedroom": "res://Dialog/Timelines/Noir/NoirBedroom.dtl",
 "NoirGarten": "res://Dialog/Timelines/Noir/NoirGarten.dtl",
 "NoirKüche": "res://Dialog/Timelines/Noir/NoirKüche.dtl",
 "NoirStudy": "res://Dialog/Timelines/Noir/NoirStudy.dtl",

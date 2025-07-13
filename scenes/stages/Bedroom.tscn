@@ -21,6 +21,7 @@ offset_top = 188.0
 offset_right = 703.0
 offset_bottom = 2024.0
 flip_h = true
+dialog_timeline = "NoirBedroom"
 
 [node name="Lady" parent="DialogManager/Puppenspieler" index="1"]
 visible = false
