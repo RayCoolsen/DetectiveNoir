@@ -13,6 +13,7 @@ scale = Vector2(1.3, 1.3)
 texture = ExtResource("1_wqndc")
 
 [node name="DialogManager" parent="." instance=ExtResource("2_qe3ei")]
+default_timeline = "IntroBedroom"
 
 [node name="Noir" parent="DialogManager/Puppenspieler" index="0"]
 offset_left = 106.0
@@ -42,6 +43,9 @@ offset_left = 897.0
 offset_top = 104.0
 offset_right = 1766.0
 offset_bottom = 2112.0
+
+[node name="Rivale" parent="DialogManager/Puppenspieler" index="6"]
+visible = false
 
 [node name="InventarManager" parent="." instance=ExtResource("3_h4dgx")]
 

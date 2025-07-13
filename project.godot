@@ -32,6 +32,7 @@ directories/dch_directory={
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={
+"IntroBedroom": "res://Dialog/Timelines/Intros/IntroBedroom.dtl",
 "IntroGarten": "res://Dialog/Timelines/Intros/IntroGarten.dtl",
 "IntroKüche": "res://Dialog/Timelines/Intros/IntroKüche.dtl",
 "IntroStudy": "res://Dialog/Timelines/Intros/IntroStudy.dtl",
