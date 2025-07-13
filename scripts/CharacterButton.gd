@@ -12,6 +12,8 @@ func _enter_tree() -> void:
 	update_visibility()
 
 func _on_pressed() -> void:
+	if Memory.inventory_open:
+		return
 	dialog_requested.emit(dialog_timeline)
 
 func on_dialogic_signal(event: String) -> void:

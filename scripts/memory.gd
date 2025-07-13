@@ -19,6 +19,8 @@ var inventory: Inventory = Inventory.new()
 var all_items: ResourceGroup 
 var _all_items: Dictionary = {}
 
+var inventory_open: bool = false
+
 func _ready() -> void:
 	var loaded_resource = ResourceLoader.load("res://data/all_items.tres")
 	

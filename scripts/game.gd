@@ -19,6 +19,8 @@ func _load_scenes() -> void:
 	}
 
 func change_stage(target_location: Memory.LOCATION) -> void:
+	if Memory.inventory_open:
+		return
 	# 1. Signale der alten Stage trennen
 	stage_manager.disconnect_navigation()
 	

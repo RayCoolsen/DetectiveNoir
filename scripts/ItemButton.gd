@@ -9,5 +9,7 @@ func _ready() -> void:
 
 
 func _on_pressed() -> void:
+	if Memory.inventory_open:
+		return
 	item_pickup_requested.emit(collectible_item)
 	queue_free()

@@ -20,3 +20,4 @@ func open(inventory: Inventory) -> void:
 
 func _on_close_button_pressed() -> void:
 	hide()
+	Memory.inventory_open = false
