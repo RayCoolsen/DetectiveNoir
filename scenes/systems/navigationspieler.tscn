@@ -13,12 +13,18 @@ offset_top = 150.0
 offset_right = 2965.0
 offset_bottom = 690.0
 
+[node name="Label" parent="StudyButton" index="1"]
+text = "Study"
+
 [node name="BedroomButton" parent="." instance=ExtResource("2_ipj16")]
 offset_left = 1100.0
 offset_top = 250.0
 offset_right = 2965.0
 offset_bottom = 790.0
 target_location = 3
+
+[node name="Label" parent="BedroomButton" index="1"]
+text = "Bedroom"
 
 [node name="KuecheButton" parent="." instance=ExtResource("2_ipj16")]
 offset_left = 1100.0
@@ -27,9 +33,20 @@ offset_right = 2965.0
 offset_bottom = 890.0
 target_location = 0
 
+[node name="Label" parent="KuecheButton" index="1"]
+text = "Kitchen"
+
 [node name="GartenButton" parent="." instance=ExtResource("2_ipj16")]
 offset_left = 1100.0
 offset_top = 450.0
 offset_right = 2965.0
 offset_bottom = 990.0
 target_location = 2
+
+[node name="Label" parent="GartenButton" index="1"]
+text = "Garden"
+
+[editable path="StudyButton"]
+[editable path="BedroomButton"]
+[editable path="KuecheButton"]
+[editable path="GartenButton"]

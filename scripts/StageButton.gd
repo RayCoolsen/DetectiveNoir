@@ -1,4 +1,4 @@
-extends TextureButton
+extends Control
 
 @export var target_location : Memory.LOCATION
 @export var hover_offset: Vector2 = Vector2(-100, 0)
@@ -36,4 +36,4 @@ func animate_position(target_pos: Vector2) -> void:
 
 # Prüft ob Eingaben ignoriert werden sollten
 func should_ignore_input() -> bool:
-	return Memory.inventory_open || disabled
+	return Memory.inventory_open
