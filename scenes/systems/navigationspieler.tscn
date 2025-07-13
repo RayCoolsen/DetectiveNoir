@@ -8,18 +8,28 @@ z_index = 3
 script = ExtResource("1_d5v85")
 
 [node name="StudyButton" parent="." instance=ExtResource("2_ipj16")]
+offset_left = 1100.0
+offset_top = 150.0
+offset_right = 2965.0
+offset_bottom = 690.0
 
 [node name="BedroomButton" parent="." instance=ExtResource("2_ipj16")]
+offset_left = 1100.0
 offset_top = 250.0
+offset_right = 2965.0
 offset_bottom = 790.0
 target_location = 3
 
 [node name="KuecheButton" parent="." instance=ExtResource("2_ipj16")]
+offset_left = 1100.0
 offset_top = 350.0
+offset_right = 2965.0
 offset_bottom = 890.0
 target_location = 0
 
 [node name="GartenButton" parent="." instance=ExtResource("2_ipj16")]
+offset_left = 1100.0
 offset_top = 450.0
+offset_right = 2965.0
 offset_bottom = 990.0
 target_location = 2
