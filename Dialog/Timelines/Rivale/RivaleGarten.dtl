@@ -4,7 +4,10 @@ join Rivale right [animation="Slide In Right" length="0.8" mirrored="true"]
 Noir: Hello, Good sir
 Noir: Could I ask you a few questions?
 Rivale: Yeah, sure
-Rivale: <Empty Text Event>
+- Ask about the Lord
+	Rivale: Stupid Cats, they get nime lives and still whine when their over
+	Rivale: But Dogs, we go down in GLORY!!
+	Rivale: *Mehr text über den Lord*
 leave Noir [animation="Zoom Out"]
 leave Rivale [animation="Zoom Out"]
 [signal]
