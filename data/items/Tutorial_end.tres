@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cbukdylsuomwh"]
+
+[ext_resource type="Script" path="res://scripts/item.gd" id="1_3301w"]
+
+[resource]
+script = ExtResource("1_3301w")
+name = "Tutorial_end"
+pick_up_timeline = ""
