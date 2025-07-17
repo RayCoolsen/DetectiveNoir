@@ -1,4 +1,3 @@
-[signal arg="hide"]
 join Noir center [mirrored="true"]
 Noir: (Noir Study)
 Noir: (Check if briefcase in inventory.)
@@ -9,4 +8,3 @@ if Memory.has_item_in_inventory(Memory._all_items["Lupe"]):
 else:
 	Noir: I should find my briefcase, I need it for my work.
 	Noir: Afterwards I should speak to Lady Whitepaw to tell her that I am ready to leave.
-[signal]

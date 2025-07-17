@@ -1,4 +1,3 @@
-[signal arg="hide"]
 join Noir left [animation="Slide In Left" length="0.8" mirrored="true"]
 join Sohn right [animation="Slide In Right" length="0.8"]
 Noir: Good day, sir
@@ -28,4 +27,3 @@ Noir: Could I just ask you a few questions?
 - Dont ask anything.
 	Noir: I have some other matters to attend to, but I'll be right back with you.
 Noir: Thank you for your time.
-[signal]

@@ -1,8 +1,6 @@
-[signal arg="hide"]
 join Noir center
 do Memory.set_character_location(Memory.CHARACTER.KOCH, Memory.LOCATION.KUECHE)
 do Memory.set_character_location(Memory.CHARACTER.MAGD, Memory.LOCATION.KUECHE)
 Noir: (Küchen Intro)
 Noir: (Dieser Text soll nur einmal erscheinen, wenn man die Küche das erste Mal betritt.)
 Noir: A well-equipped kitchen. Someone is trying hard to keep things tidy here.
-[signal]

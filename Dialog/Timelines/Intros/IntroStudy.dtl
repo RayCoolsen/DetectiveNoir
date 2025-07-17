@@ -1,4 +1,3 @@
-[signal arg="hide"]
 join Noir center [animation="Slide In Left" length="0.8" mirrored="true"]
 Noir: Interesting...
 Noir: Interesting...
@@ -33,5 +32,4 @@ label End
 Noir: I just have to gather my instuments quickly.
 leave Noir [animation="Zoom Out"]
 leave Lady [animation="Zoom Out"]
-[signal]
 Tutorial\: Inventar, Item / Person intearaktion

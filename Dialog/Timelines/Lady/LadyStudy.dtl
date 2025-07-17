@@ -1,8 +1,6 @@
-[signal arg="hide"]
 join Noir left [animation="Slide In Left" length="0.7" mirrored="true" move_time="0.4"]
 join Lady right [animation="Slide In Right" length="0.7" mirrored="true"]
 Lady: Did you find everything you need, Mr. Noir?
 Lady: (Check if briefcase in Inventory. If yes -> activate Travel buttons)
 Lady: (If no  ->  return)
 Noir: Just one more moment, please!
-[signal]

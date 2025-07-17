@@ -1,7 +1,5 @@
-[signal arg="hide"]
 do Memory.set_character_location(Memory.CHARACTER.LADY, Memory.LOCATION.GARTEN)
 do Memory.set_character_location(Memory.CHARACTER.RIVALE, Memory.LOCATION.GARTEN)
 join Noir center
 Noir: (Garten Intro)
 Noir: (Dieser Text soll nur einmal erscheinen, wenn man den Garten das erste Mal betritt.)
-[signal]
