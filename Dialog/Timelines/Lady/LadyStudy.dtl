@@ -2,7 +2,7 @@ join Noir left [animation="Slide In Left" length="0.7" mirrored="true" move_time
 join Lady right [animation="Slide In Right" length="0.7" mirrored="true"]
 Lady: Did you find everything you need, Mr. Noir?
 if Memory.has_item_in_inventory(Memory._all_items["Tutorial_end"]):
-	Noir: Certainly, we can head out.
+	Noir: Certainly, we can head out now.
 	[signal arg="show_navigation"]
 else:
 	Noir: Just one more moment, please!

@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://t2s6sc6d1y5e"]
+[gd_scene load_steps=7 format=3 uid="uid://t2s6sc6d1y5e"]
 
 [ext_resource type="Texture2D" uid="uid://o6b80qrwwdqi" path="res://sprites/Study.png" id="1_why8q"]
 [ext_resource type="PackedScene" uid="uid://dkr7hiwpiyd6x" path="res://scenes/systems/dialog_manager.tscn" id="2_8vih0"]
 [ext_resource type="PackedScene" uid="uid://da171p32k3xet" path="res://scenes/systems/inventar_manager.tscn" id="3_20fow"]
+[ext_resource type="Script" path="res://scripts/ItemButton.gd" id="4_6y45c"]
 [ext_resource type="PackedScene" uid="uid://c1rgcmjqdo8x8" path="res://scenes/systems/navigationspieler.tscn" id="4_bck88"]
+[ext_resource type="Resource" uid="uid://db3030534w5lk" path="res://data/items/Suitcase.tres" id="5_agdh6"]
 
 [node name="Study" type="Node2D"]
 
@@ -49,7 +51,21 @@ visible = false
 
 [node name="InventarManager" parent="." instance=ExtResource("3_20fow")]
 
+[node name="Lupe" parent="InventarManager/Inventarspieler" index="0"]
+visible = false
+
+[node name="Suitcase" type="TextureButton" parent="InventarManager/Inventarspieler" index="1"]
+offset_left = 252.0
+offset_top = 425.0
+offset_right = 448.0
+offset_bottom = 629.0
+scale = Vector2(0.8, 0.8)
+script = ExtResource("4_6y45c")
+collectible_item = ExtResource("5_agdh6")
+
 [node name="Navigationspieler" parent="." instance=ExtResource("4_bck88")]
+
+[connection signal="pressed" from="InventarManager/Inventarspieler/Suitcase" to="InventarManager/Inventarspieler/Suitcase" method="_on_pressed"]
 
 [editable path="DialogManager"]
 [editable path="DialogManager/Puppenspieler"]

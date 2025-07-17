@@ -4,9 +4,9 @@ Noir: (Check if briefcase in inventory.)
 if Memory.has_item_in_inventory(Memory._all_items["Tutorial_end"]):
 	Noir: I have all my things with me, now I should talk to Lady Whitepaw so we can be on our way.
 else:
-	if Memory.has_item_in_inventory(Memory._all_items["Lupe"]):
+	if Memory.has_item_in_inventory(Memory._all_items["Suitcase"]):
 		Noir: I've found everything now.
-		do Memory.remove_item_from_inventory(Memory._all_items["Lupe"])
+		do Memory.remove_item_from_inventory(Memory._all_items["Suitcase"])
 		do Memory.add_item_to_inventory(Memory._all_items["Schokolade"])
 		do Memory.add_item_to_inventory(Memory._all_items["Tutorial_end"])
 	else:
