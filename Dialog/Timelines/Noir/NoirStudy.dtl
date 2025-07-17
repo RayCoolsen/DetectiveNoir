@@ -1,11 +1,14 @@
 join Noir center [mirrored="true"]
 Noir: (Noir Study)
 Noir: (Check if briefcase in inventory.)
-if Memory.has_item_in_inventory(Memory._all_items["Lupe"]):
-	Noir: Jetzt habe ich alles.
-	do Memory.remove_item_from_inventory(Memory._all_items["Lupe"])
-	do Memory.add_item_to_inventory(Memory._all_items["Schokolade"])
-	do Memory.add_item_to_inventory(Memory._all_items["Tutorial_end"])
+if Memory.has_item_in_inventory(Memory._all_items["Tutorial_end"]):
+	Noir: I have all my things with me, now I should talk to Lady Whitepaw so we can be on our way.
 else:
-	Noir: I should find my briefcase, I need it for my work.
-	Noir: Afterwards I should speak to Lady Whitepaw to tell her that I am ready to leave.
+	if Memory.has_item_in_inventory(Memory._all_items["Lupe"]):
+		Noir: I've found everything now.
+		do Memory.remove_item_from_inventory(Memory._all_items["Lupe"])
+		do Memory.add_item_to_inventory(Memory._all_items["Schokolade"])
+		do Memory.add_item_to_inventory(Memory._all_items["Tutorial_end"])
+	else:
+		Noir: I should find my briefcase, I need it for my work.
+		Noir: Afterwards I should speak to Lady Whitepaw to tell her that I am ready to leave.
